@@ -1,5 +1,6 @@
 package com.satyam.SearchEngine.crawler;
 
+import com.satyam.SearchEngine.model.Page;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -24,15 +25,16 @@ public class CrawlerService {
         urlQueue.add(seedUrl);
         discovered.add(seedUrl);
 
-        int count = 1;
-        while(!urlQueue.isEmpty() && count <10) {
-            count = crawl( count,visited, urlQueue,discovered);
+        int pageCrawled = 0;
+        while(!urlQueue.isEmpty() && pageCrawled <10) {
+             crawl(pageCrawled,visited, urlQueue,discovered);
+             pageCrawled ++;
         }
     }
 
-    private int crawl(int count, Set<String> visited, Queue<String> urlQueue,Set<String> discovered) {
+    private void crawl(int count, Set<String> visited, Queue<String> urlQueue,Set<String> discovered) {
         String queueUrl = normalize(urlQueue.poll());
-        if(queueUrl == null) return count+1;
+        if(queueUrl == null) return;
         Document doc = request(queueUrl, visited);
 
 
@@ -40,14 +42,13 @@ public class CrawlerService {
             for(Element ele:doc.select("a[href]")){
                 String sub_url = normalize(ele.absUrl("href"));
 
-                if(!discovered.contains(sub_url)){
+                if(!discovered.contains(sub_url) && sub_url.startsWith("https://en.wikipedia.org/wiki/")){
                     discovered.add(sub_url);
                     urlQueue.add(sub_url);
                 }
             }
         }
 
-        return count+1;
     }
 
     private Document request(String url, Set<String> visited) {
@@ -55,9 +56,8 @@ public class CrawlerService {
         try {
             Document doc  = con.get();
             if(con.response().statusCode()==200){
-                System.out.println(url);
-                System.out.println(doc.title());
-                System.out.println();
+                Page page = documentParser(doc,url);
+                System.out.println(page);
 
                 visited.add(url);
                 return doc;
@@ -69,16 +69,40 @@ public class CrawlerService {
         }
     }
 
+
+
     private String normalize(String url){
         if(url == null || url.isBlank())
             return null;
 
-        int hash = url.indexOf('#');
+//        String pageName = url.substring(url.lastIndexOf('/') + 1);
+//        if (pageName.contains(":")){
+//            return null;
+//        }
 
+
+        int hash = url.indexOf('#');
         if(hash != -1){
             url = url.substring(0, hash);
         }
 
+        int queryIndex = url.indexOf('?');
+        if(queryIndex != -1){
+            url = url.substring(0, queryIndex);
+        }
+
         return url;
     }
+
+    private Page documentParser(Document doc,String url) {
+
+        String title = doc.title();
+        if(title.isEmpty()) title=url;
+
+        doc.select("script, style, nav, header, footer, aside").remove();
+        String content = doc.body().text();
+
+        return new Page(url,title,content);
+    }
+
 }

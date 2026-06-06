@@ -1,17 +1,17 @@
 package com.satyam.SearchEngine.model;
 
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @Getter
 @Setter
 @NoArgsConstructor
+@AllArgsConstructor
+@ToString
 public class Page {
 
-    private Long id;
+//    private Long id;
     private String url;
     private String title;
-    private String bodyText;
+    private String content;
 
 }
