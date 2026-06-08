@@ -110,6 +110,16 @@ public class CrawlerService {
                     page.setStatus(CrawlStatus.SKIPPED);
                 }
 
+                //if rate limit is reached backing of by 15 sec
+                if(page.getHttpStatusCode() == 429){
+                    System.out.println("Rate Limited, BACKING OFF: "+ url);
+                    try {
+                        Thread.sleep(15000); // back off 15 seconds
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                    }
+                }
+
                 return null;
             }
 
