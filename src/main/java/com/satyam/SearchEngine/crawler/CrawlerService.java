@@ -147,15 +147,21 @@ public class CrawlerService {
         url = url.strip();
         if(url.isBlank()) return null;
 
-        String pageName = url.substring(url.lastIndexOf('/') + 1);
+        String pageName = url.substring(url.lastIndexOf('/') + 1).toLowerCase();
         if (pageName.isEmpty()) return null;
 
         // filter useless namespaces, keep legitimate content
-        if (pageName.contains(":")) {
-            String namespace = pageName.substring(0, pageName.indexOf(':')).toLowerCase();
-            Set<String> allowed = Set.of("category", "portal", "file", "help");
+        if (pageName.contains(":") || pageName.contains("%3a")) {
+            String decoded = pageName.replace("%3a", ":");
+            String namespace = decoded.substring(0, decoded.indexOf(':')).toLowerCase();
+            Set<String> allowed = Set.of("category", "portal", "help");
             if (!allowed.contains(namespace)) return null;
+            if (url.contains("Category:Noindexed_pages") || url.contains("Category%3ANoindexed_pages")
+                     || url.contains("Category%3aNoindexed_pages")) return null;
+
         }
+
+        if (url.length() > 2048) return null;
 
         return url;
 
