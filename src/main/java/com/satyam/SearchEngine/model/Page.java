@@ -3,6 +3,7 @@ package com.satyam.SearchEngine.model;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @Getter
@@ -33,6 +34,8 @@ public class Page {
     private int retryCount;
     private int httpStatusCode;
     private String failureReason;
+
+    private LocalDate lastUpdated;
 
 
     public Page(String url, CrawlStatus crawlStatus) {

@@ -8,18 +8,32 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.*;
 
 @Service
 public class CrawlerService {
-    private static final int MAX_PAGES = 100;
+    private static final int MAX_PAGES = 10000;
     private static final String SEED_URL = "https://en.wikipedia.org/wiki/Main_Page";
     private static final String WIKI_PREFIX = "https://en.wikipedia.org/wiki/";
     private static final int MAX_RETRY = 3;
+    private static final Set<String> WEBSITE_DISALLOWED = Set.of("special",
+            "talk",
+            "user",
+            "file",
+            "template",
+            "category",
+            "wikipedia",
+            "portal",
+            "help",
+            "draft",
+            "module");
 
     @Autowired
     PageRepo pageRepo;
@@ -32,7 +46,7 @@ public class CrawlerService {
 
 
         //fetching pending pages first
-        List<Page> pageList = pageRepo.findByStatus(CrawlStatus.PENDING);
+        List<Page> pageList = pageRepo.findByStatus(CrawlStatus.PENDING,PageRequest.of(0,100));
         if(pageList.isEmpty()){
             urlQueue.add(SEED_URL);
             discovered.add(SEED_URL);
@@ -46,6 +60,7 @@ public class CrawlerService {
         int pageCrawled = 0;
         while(!urlQueue.isEmpty() && pageCrawled < MAX_PAGES) {
              crawl(visited, urlQueue,discovered);
+//            System.out.println("END: "+LocalDateTime.now());
              pageCrawled ++;
         }
         System.out.println("CRAWLING REACHED MAX_PAGES !");
@@ -74,6 +89,7 @@ public class CrawlerService {
                 discovered.add(sub_url);
                 urlQueue.add(sub_url);
 
+                //TODO:  n+1 problem here
                 if(pageRepo.findByUrl(sub_url).isEmpty())
                     pageRepo.save(new Page(sub_url,CrawlStatus.PENDING));
             }
@@ -84,14 +100,18 @@ public class CrawlerService {
 
     private Document request(String url, Set<String> visited,Page page) {
         Connection con = Jsoup.connect(url)
-                .userAgent("Mozilla/5.0 (compatible; SatyamBot/1.0; +https://github.com/satyam-721/)")
+                .userAgent("SatyamBot/1.0 ((https://github.com/satyam-721/); satyamsagar305@gmail.com)")
+//                .userAgent("Mozilla/5.0 (compatible; SatyamBot/1.0; +https://github.com/satyam-721/)")
                 .timeout(8000)              // not to hangover at slow response
                 .header("Accept-Language", "en-US,en;q=0.9") // get English content
                 .header("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8")
                 .ignoreHttpErrors(true);    // handle 404/500 yourself instead of exceptions
         try {
-            Thread.sleep(1000);   /**need to change if there is multiple functions calling request()*/
+
+            //delay between each request
+            Thread.sleep(10);   /** need to change if there is multiple functions calling request()*/
             Document doc  = con.get();
+//            System.out.println("Start: "+LocalDateTime.now());
 
             if(con.response().statusCode()==200){
                 page.setHttpStatusCode(200);
@@ -126,7 +146,7 @@ public class CrawlerService {
 
 
         } catch (IOException e) {
-            System.out.println("Failed: "+url);
+            System.out.println("Failed: "+url + e.getMessage());
             page.setRetryCount( page.getRetryCount()+1 );
             page.setStatus(CrawlStatus.FAILED);
             page.setFailureReason(e.getMessage());
@@ -157,17 +177,24 @@ public class CrawlerService {
         url = url.strip();
         if(url.isBlank()) return null;
 
-        String pageName = url.substring(url.lastIndexOf('/') + 1).toLowerCase();
-        if (pageName.isEmpty()) return null;
+        int columnIndex = url.indexOf(":",7);
+        if(columnIndex == -1)
+            columnIndex = url.toLowerCase().indexOf("%3a",7);
 
-        // filter useless namespaces, keep legitimate content
-        if (pageName.contains(":") || pageName.contains("%3a")) {
-            String decoded = pageName.replace("%3a", ":");
-            String namespace = decoded.substring(0, decoded.indexOf(':')).toLowerCase();
-            Set<String> allowed = Set.of("category", "portal", "help");
-            if (!allowed.contains(namespace)) return null;
+        if(columnIndex != -1) {
+            String nameSpaces = url.substring(url.lastIndexOf('/', columnIndex) + 1,columnIndex).toLowerCase();
+
+//        if (pageName.isEmpty()) return null;
+
+            // filter useless namespaces, keep legitimate content
+//                String decoded = pageName.replace("%3a", ":");
+//                String namespace = decoded.substring(0, decoded.indexOf(':')).toLowerCase();
+
+
+            if (WEBSITE_DISALLOWED.contains(nameSpaces)) return null;
             if (url.contains("Category:Noindexed_pages") || url.contains("Category%3ANoindexed_pages")
-                     || url.contains("Category%3aNoindexed_pages")) return null;
+                    || url.contains("Category%3aNoindexed_pages")) return null;
+
 
         }
 
@@ -181,10 +208,31 @@ public class CrawlerService {
 
         String title = doc.title();
         if(title.isEmpty()) title=url;
+        Element updatedLine = doc.selectFirst("#footer-info-lastmod");    //contains last updated date of wikipedia
         doc.select("script, style, nav, header, footer, aside").remove();
 
+        if (updatedLine != null){
+            String updatedDateTime = updatedLine.text()
+                    .strip()
+                    .replaceFirst("This page was last edited on ","");
+            String lastUpdatedDate = updatedDateTime.substring(0,updatedDateTime.indexOf(","));
+
+            try {
+                 page.setLastUpdated( LocalDate.parse(
+                        lastUpdatedDate,
+                        DateTimeFormatter.ofPattern("d MMMM yyyy", Locale.ENGLISH)
+                ));
+            } catch (Exception e) {
+                System.out.println("Not a valid date format, retrying short format insertion");
+                page.setLastUpdated( LocalDate.parse(
+                        lastUpdatedDate,
+                        DateTimeFormatter.ofPattern("d MMMM yyyy", Locale.ENGLISH)
+                ));
+            }
+        }
+
         page.setTitle(title);
-        page.setContent( doc.body().text() );
+        page.setContent( doc.body().text().replaceFirst("Jump to content From Wikipedia, the free encyclopedia","") );
         page.setSnippet(page.getContent().substring(0, Math.min(245, page.getContent().length())) + "...");
         page.setStatus(CrawlStatus.CRAWLED);
 
@@ -192,6 +240,7 @@ public class CrawlerService {
     }
 
     private Page checkCrawlStatus(String url) {
+        System.out.println(url);
         Page page = pageRepo.findByUrl(url)
                 .orElse(new Page(url,CrawlStatus.PENDING));
 
