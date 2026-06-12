@@ -12,10 +12,9 @@ public class SearchEngineApplication {
 
 
 	public static void main(String[] args) {
-        ConfigurableApplicationContext context = SpringApplication.run(SearchEngineApplication.class, args);
+        SpringApplication.run(SearchEngineApplication.class, args);
 
-        CrawlerService cs = context.getBean(CrawlerService.class);
-        cs.startCrawling();
+
     }
 
 

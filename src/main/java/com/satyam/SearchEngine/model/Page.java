@@ -1,5 +1,6 @@
 package com.satyam.SearchEngine.model;
 
+import com.satyam.SearchEngine.crawler.CrawlStatus;
 import jakarta.persistence.*;
 import lombok.*;
 

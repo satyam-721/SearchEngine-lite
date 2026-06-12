@@ -1,6 +1,6 @@
 package com.satyam.SearchEngine.Repo;
 
-import com.satyam.SearchEngine.model.CrawlStatus;
+import com.satyam.SearchEngine.crawler.CrawlStatus;
 import com.satyam.SearchEngine.model.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

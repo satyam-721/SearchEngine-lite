@@ -1,7 +1,6 @@
 package com.satyam.SearchEngine.crawler;
 
 import com.satyam.SearchEngine.Repo.PageRepo;
-import com.satyam.SearchEngine.model.CrawlStatus;
 import com.satyam.SearchEngine.model.Page;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
@@ -20,7 +19,7 @@ import java.util.*;
 @Service
 public class CrawlerService {
     private static final int MAX_PAGES = 10000;
-    private static final String SEED_URL = "https://en.wikipedia.org/wiki/Main_Page";
+    private static final String SEED_URL = "https://en.wikipedia.org/wiki/Spring_Boot";
     private static final String WIKI_PREFIX = "https://en.wikipedia.org/wiki/";
     private static final int MAX_RETRY = 3;
     private static final Set<String> WEBSITE_DISALLOWED = Set.of("special",
@@ -102,7 +101,7 @@ public class CrawlerService {
         Connection con = Jsoup.connect(url)
                 .userAgent("SatyamBot/1.0 ((https://github.com/satyam-721/); satyamsagar305@gmail.com)")
 //                .userAgent("Mozilla/5.0 (compatible; SatyamBot/1.0; +https://github.com/satyam-721/)")
-                .timeout(8000)              // not to hangover at slow response
+                .timeout(5000)              // not to hangover at slow response
                 .header("Accept-Language", "en-US,en;q=0.9") // get English content
                 .header("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8")
                 .ignoreHttpErrors(true);    // handle 404/500 yourself instead of exceptions

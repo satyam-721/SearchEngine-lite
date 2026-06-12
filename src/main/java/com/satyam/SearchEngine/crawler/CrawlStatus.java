@@ -1,4 +1,4 @@
-package com.satyam.SearchEngine.model;
+package com.satyam.SearchEngine.crawler;
 
 public enum CrawlStatus {
     PENDING,
