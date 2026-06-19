@@ -1,100 +1,100 @@
 package com.satyam.SearchEngine.indexer;
 
-import com.satyam.SearchEngine.text.StopWords;
+import com.satyam.SearchEngine.Repo.IndexEntryRepo;
+import com.satyam.SearchEngine.Repo.PageRepo;
+import com.satyam.SearchEngine.crawler.CrawlStatus;
+import com.satyam.SearchEngine.model.Page;
+import com.satyam.SearchEngine.model.IndexEntry;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
+import org.springframework.stereotype.Service;
+
+import java.util.*;
+
 import com.satyam.SearchEngine.text.TextAnalyser;
 
-import java.text.Normalizer;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Locale;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
+@Service
 public class IndexerService {
 
-    //  pre-processing: collapse letter.letter → letterletter
-    private static final Pattern ACRONYM_DOT =
-            Pattern.compile("(?<=[A-Z])\\.(?=[A-Z])");
+    @Autowired
+    PageRepo pageRepo;
 
-    // extract sequences of 2+ Unicode letters
-    private static final Pattern TOKEN_PATTERN =
-            Pattern.compile("[\\p{L}]{2,}");
+    @Autowired
+    IndexEntryRepo indexEntryRepo;
 
-    public static void main(String args[]){
-//        htmlTokenizer();
+//    Pageable limit = PageRequest.of(0,1000, Sort.by("id"));
 
-        StopWords stopWords = new StopWords();
-        TextAnalyser analyser = new TextAnalyser();
-
-        List<String> tokens =  tokenize("Hello1234 Schrödinger's this is Ph.D");
-
-        tokens = stopWords.removeStopWords(tokens);
+    public HashMap<String, Integer> startAnalyzer(){
 
 
-        tokens = tokens.stream()
-                .map(analyser::stemmer)
-                .toList();
+        List<Page> pagelist = pageRepo.findByStatus(CrawlStatus.CRAWLED/**, Pageable.ofSize(1000)**/);
+        List<List<IndexEntry>> indexEntryList = new ArrayList<>(List.of());
+
+        HashMap<String, Integer> docFrequency = new HashMap<>(20000);
+
+        for(Page page:pagelist) {
+            List<String> wordsStream = TextAnalyser.start(page.getContent()).toList();
+            Set<String> uniqueWords = new HashSet<>(wordsStream);
+
+            List<IndexEntry> indexEntries = calculateTF(wordsStream,page.getId());
+            indexEntryList.add(indexEntries);
+            wordsStream = null;
+
+            for (String word : uniqueWords) {
+                docFrequency.merge(word, 1, Integer::sum);
+
+            }
+            uniqueWords = null;
+
+        }
+        System.out.println("Calculated TF for "+ pagelist.size() + " documents");
+
+        calculateScore(indexEntryList,docFrequency,pagelist.size());
+
+        System.out.println("calculated Score and saved into DB");
 
 
 
+        return docFrequency;
+    }
 
+    private void calculateScore(List<List<IndexEntry>> indexEntryList, HashMap<String, Integer> docFrequency,int totalSize) {
+        indexEntryList.forEach(indexEntries -> {
+            for(IndexEntry indexEntry : indexEntries){
+                double idf = Math.log(  (double) totalSize / docFrequency.get(indexEntry.getWord()));
+                indexEntry.setScore( indexEntry.getTf() * idf );
 
-        System.out.println(tokens);
+            }
+            indexEntryRepo.saveAll(indexEntries);
+        });
+
 
     }
 
 
 
-    public static void htmlTokenizer(){
-        String text = "Hello1234 Schrödinger's this is U.S.A";
 
-//        Pattern DOTTED_ACRONYM  = Pattern.compile("\\b([A-Z]\\.){2,}[A-Z]?\\.?\\b");
-        Pattern DOTTED_ACRONYM = Pattern.compile("[\\p{L}]{2,}");
+    private List<IndexEntry> calculateTF(List<String> wordsArray , Long id) {
 
-        String normalized = Normalizer.normalize(text, Normalizer.Form.NFD)
-                .replaceAll("\\p{M}", "");
+        List<IndexEntry> indexEntryList = new ArrayList<>();
+        HashMap<String,Integer> wordfreq = new HashMap<>();
+        int totalTerm = wordsArray.size();
 
-        Matcher matcher = DOTTED_ACRONYM.matcher(normalized);
-
-
-        while(matcher.find()){
-            System.out.println( matcher.group());
-
+        for(String word : wordsArray){
+            wordfreq.merge(word, 1, Integer::sum);
         }
 
 
+        wordfreq.forEach((word,count) -> {
+                double tf = Math.log(  1 + (double) count / totalTerm);
+                indexEntryList.add(
+                        new IndexEntry(word,id,tf)
+                );
+        });
+
+        return indexEntryList;
+
     }
-
-
-
-    public static List<String> tokenize(String text) {
-        if (text == null || text.isBlank()) return List.of();
-
-        // Step 1: collapse dotted acronyms BEFORE tokenizing
-        String preprocessed = collapseDottedAcronyms(text);
-
-
-        // Step 2: Unicode normalization (ö → o)
-        String normalized = Normalizer.normalize(preprocessed, Normalizer.Form.NFD)
-                .replaceAll("\\p{M}", "");
-        // \p{M} = Unicode "Mark" category = combining diacritics
-
-        // Step 3: extract tokens
-        List<String> tokens = new ArrayList<>(512);
-        Matcher matcher = TOKEN_PATTERN.matcher(normalized);
-
-
-        while (matcher.find()) {
-            tokens.add(matcher.group().toLowerCase(Locale.ROOT));
-        }
-        return tokens;
-    }
-
-    private static String collapseDottedAcronyms(String text) {
-        return ACRONYM_DOT.matcher(text).replaceAll("");
-    }
-
-
 
 
 }
