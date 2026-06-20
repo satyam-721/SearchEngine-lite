@@ -6,7 +6,6 @@ import com.satyam.SearchEngine.crawler.CrawlStatus;
 import com.satyam.SearchEngine.model.Page;
 import com.satyam.SearchEngine.model.IndexEntry;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
@@ -28,28 +27,28 @@ public class IndexerService {
 
 
         List<Page> pagelist = pageRepo.findByStatus(CrawlStatus.CRAWLED/**, Pageable.ofSize(1000)**/);
-        List<List<IndexEntry>> indexEntryList = new ArrayList<>(List.of());
+        int totaldoc = pagelist.size();
 
+        Map<Integer, Map<String,Float>> tfCache = new HashMap<>(totaldoc);
+//        List<List<IndexEntry>> indexEntryList = new ArrayList<>(List.of());
         HashMap<String, Integer> docFrequency = new HashMap<>(20000);
 
         for(Page page:pagelist) {
             List<String> wordsStream = TextAnalyser.start(page.getContent()).toList();
             Set<String> uniqueWords = new HashSet<>(wordsStream);
 
-            List<IndexEntry> indexEntries = calculateTF(wordsStream,page.getId());
-            indexEntryList.add(indexEntries);
-            wordsStream = null;
+            Map<String,Float> pageTf = calculateTF(wordsStream);
+            tfCache.put(Math.toIntExact(page.getId()),pageTf);
 
             for (String word : uniqueWords) {
                 docFrequency.merge(word, 1, Integer::sum);
 
             }
-            uniqueWords = null;
 
         }
         System.out.println("Calculated TF for "+ pagelist.size() + " documents");
 
-        calculateScore(indexEntryList,docFrequency,pagelist.size());
+        calculateScore(tfCache,docFrequency,totaldoc);
 
         System.out.println("calculated Score and saved into DB");
 
@@ -58,13 +57,14 @@ public class IndexerService {
         return docFrequency;
     }
 
-    private void calculateScore(List<List<IndexEntry>> indexEntryList, HashMap<String, Integer> docFrequency,int totalSize) {
-        indexEntryList.forEach(indexEntries -> {
-            for(IndexEntry indexEntry : indexEntries){
-                double idf = Math.log(  (double) totalSize / docFrequency.get(indexEntry.getWord()));
-                indexEntry.setScore( indexEntry.getTf() * idf );
+    private void calculateScore(Map<Integer, Map<String, Float>> tfCache, HashMap<String, Integer> docFrequency, int totalSize) {
 
-            }
+        tfCache.forEach((pid,pageTf) -> {
+            List<IndexEntry> indexEntries = new ArrayList<>(pageTf.size());
+            pageTf.forEach((word,tf)->{
+                float idf = (float) Math.log(  (double) totalSize / docFrequency.get(word));
+                indexEntries.add(new IndexEntry(pid,word, tf * idf));
+            });
             indexEntryRepo.saveAll(indexEntries);
         });
 
@@ -74,25 +74,24 @@ public class IndexerService {
 
 
 
-    private List<IndexEntry> calculateTF(List<String> wordsArray , Long id) {
+    private Map<String, Float> calculateTF(List<String> wordsArray ) {
 
-        List<IndexEntry> indexEntryList = new ArrayList<>();
-        HashMap<String,Integer> wordfreq = new HashMap<>();
         int totalTerm = wordsArray.size();
+        HashMap<String,Integer> wordfreq = new HashMap<>();
+
 
         for(String word : wordsArray){
             wordfreq.merge(word, 1, Integer::sum);
         }
 
+        Map<String, Float> pageTf = new HashMap<>(totalTerm);
 
         wordfreq.forEach((word,count) -> {
-                double tf = Math.log(  1 + (double) count / totalTerm);
-                indexEntryList.add(
-                        new IndexEntry(word,id,tf)
-                );
+                float tf = (float) Math.log(  1 + (double) count / totalTerm);
+                pageTf.put(word,tf);
         });
 
-        return indexEntryList;
+        return pageTf;
 
     }
 

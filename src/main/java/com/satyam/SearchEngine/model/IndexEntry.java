@@ -1,6 +1,7 @@
 package com.satyam.SearchEngine.model;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -16,14 +17,12 @@ public class IndexEntry {
     Integer id;
 
     String word;
-    long pageId;
-    @Transient
-    double tf;
-    double score;
+    int pageId;
+    float score;
 
-    public IndexEntry(String word, long pageId, double tf) {
-        this.word = word;
+    public IndexEntry( int pageId, String word,float score) {
+        this.score = score;
         this.pageId = pageId;
-        this.tf = tf;
+        this.word = word;
     }
 }
