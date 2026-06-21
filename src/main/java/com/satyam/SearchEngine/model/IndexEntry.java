@@ -13,16 +13,30 @@ import lombok.Setter;
 public class IndexEntry {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE,
+            generator = "index_seq")
+    @SequenceGenerator(
+            name = "index_seq",
+            sequenceName = "index_seq",
+            allocationSize = 50000
+    )
     Integer id;
 
     String word;
     int pageId;
+    @Transient
+    float tf;
     float score;
 
     public IndexEntry( int pageId, String word,float score) {
         this.score = score;
         this.pageId = pageId;
         this.word = word;
+    }
+
+    public IndexEntry(String word, int id, float tf) {
+        this.word = word;
+        this.pageId = id;
+        this.tf = tf;
     }
 }

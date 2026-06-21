@@ -2,8 +2,10 @@ package com.satyam.SearchEngine.Repo;
 
 import com.satyam.SearchEngine.crawler.CrawlStatus;
 import com.satyam.SearchEngine.model.Page;
+import com.satyam.SearchEngine.model.PageContent;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
 
@@ -16,9 +18,20 @@ public interface PageRepo extends JpaRepository<Page,Float> {
 
     Optional<Page> findByUrl(String url);
 
-    List<Page> findByStatus(CrawlStatus crawlStatus, Pageable pageable);
+    @Query("""
+    SELECT p
+    FROM Page p
+    WHERE p.status = :status
+""")
+    List<Page> findPageByStatus(CrawlStatus crawlStatus, Pageable pageable);
+
+
+    org.springframework.data.domain.Page<PageContent> findByStatus(CrawlStatus crawlStatus, Pageable pageable);
 
     Stream<Page> streamFindByStatus(CrawlStatus crawlStatus);
 
-    List<Page> findByStatus(CrawlStatus crawlStatus);
+
+    List<PageContent> findByStatus(CrawlStatus crawlStatus);
+
+    int countByStatus(CrawlStatus crawlStatus);
 }

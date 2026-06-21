@@ -45,7 +45,7 @@ public class CrawlerService {
 
 
         //fetching pending pages first
-        List<Page> pageList = pageRepo.findByStatus(CrawlStatus.PENDING,PageRequest.of(0,100));
+        List<Page> pageList = pageRepo.findPageByStatus(CrawlStatus.PENDING,PageRequest.of(0,100));
         if(pageList.isEmpty()){
             urlQueue.add(SEED_URL);
             discovered.add(SEED_URL);
