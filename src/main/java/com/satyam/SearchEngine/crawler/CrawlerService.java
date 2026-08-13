@@ -1,6 +1,7 @@
 package com.satyam.SearchEngine.crawler;
 
-import com.satyam.SearchEngine.Repo.PageRepo;
+import com.satyam.SearchEngine.indexer.IndexTF;
+import com.satyam.SearchEngine.model.Repo.PageRepo;
 import com.satyam.SearchEngine.model.Page;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
@@ -18,7 +19,7 @@ import java.util.*;
 
 @Service
 public class CrawlerService {
-    private static final int MAX_PAGES = 10000;
+    private static final int MAX_PAGES = 200;
     private static final String SEED_URL = "https://en.wikipedia.org/wiki/Spring_Boot";
     private static final String WIKI_PREFIX = "https://en.wikipedia.org/wiki/";
     private static final int MAX_RETRY = 3;
@@ -37,7 +38,10 @@ public class CrawlerService {
     @Autowired
     PageRepo pageRepo;
 
-    public void startCrawling(){
+    @Autowired
+    IndexTF indexTF;
+
+    public void startCrawling(int round){
         Set<String> visited = new HashSet<>();
         Queue<String> urlQueue = new LinkedList<>();
         Set<String> discovered = new HashSet<>();
@@ -45,7 +49,7 @@ public class CrawlerService {
 
 
         //fetching pending pages first
-        List<Page> pageList = pageRepo.findPageByStatus(CrawlStatus.PENDING,PageRequest.of(0,100));
+        List<Page> pageList = pageRepo.findPageByStatus(CrawlStatus.PENDING,PageRequest.of(round,100));
         if(pageList.isEmpty()){
             urlQueue.add(SEED_URL);
             discovered.add(SEED_URL);
@@ -74,6 +78,7 @@ public class CrawlerService {
 
         Document doc = request(queueUrl, visited, page);
         if(doc == null){
+
             pageRepo.save(page);
             return;
         }
@@ -81,6 +86,7 @@ public class CrawlerService {
         handleParserAndSave(doc,queueUrl,page);
 
         for(Element ele:doc.select("a[href]")){
+
             String sub_url = normalize(ele.absUrl("href"));
             if (sub_url == null) continue;
 
@@ -108,7 +114,7 @@ public class CrawlerService {
         try {
 
             //delay between each request
-            Thread.sleep(10);   /** need to change if there is multiple functions calling request()*/
+            Thread.sleep(3);   /** need to change if there is multiple functions calling request()*/
             Document doc  = con.get();
 //            System.out.println("Start: "+LocalDateTime.now());
 
@@ -236,6 +242,9 @@ public class CrawlerService {
         page.setStatus(CrawlStatus.CRAWLED);
 
         pageRepo.save(page);
+
+
+        indexTF.indexPage(page);
     }
 
     private Page checkCrawlStatus(String url) {

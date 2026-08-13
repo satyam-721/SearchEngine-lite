@@ -1,10 +1,10 @@
 package com.satyam.SearchEngine.indexer;
 
-import com.satyam.SearchEngine.Repo.IndexEntryRepo;
-import com.satyam.SearchEngine.Repo.PageRepo;
+import com.satyam.SearchEngine.model.PageContent;
+import com.satyam.SearchEngine.model.Repo.IndexEntryRepo;
+import com.satyam.SearchEngine.model.Repo.PageRepo;
 import com.satyam.SearchEngine.crawler.CrawlStatus;
 import com.satyam.SearchEngine.model.IndexEntry;
-import com.satyam.SearchEngine.model.PageContent;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import jakarta.transaction.Transactional;
@@ -16,9 +16,8 @@ import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
-import java.util.stream.Stream;
 
-import com.satyam.SearchEngine.text.TextAnalyser;
+import com.satyam.SearchEngine.indexer.dataEng.TextAnalyser;
 
 @Service
 @Transactional
@@ -100,6 +99,7 @@ public class IndexerService {
 
     }
 
+    //calculating log(tf/idf)
     private void calculateScore(List<IndexEntry> indexEntryList, HashMap<String, Integer> docFrequency,int totalSize) {
         for(IndexEntry indexEntry : indexEntryList){
             float idf = (float) Math.log(  (double) totalSize / docFrequency.get(indexEntry.getWord()));

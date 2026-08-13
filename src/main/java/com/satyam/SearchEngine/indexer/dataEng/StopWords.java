@@ -1,4 +1,4 @@
-package com.satyam.SearchEngine.text;
+package com.satyam.SearchEngine.indexer.dataEng;
 
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Component;

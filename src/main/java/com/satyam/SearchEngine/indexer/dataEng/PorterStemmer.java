@@ -1,4 +1,4 @@
-package com.satyam.SearchEngine.text;
+package com.satyam.SearchEngine.indexer.dataEng;
 /*
 
    Porter stemmer in Java. The original paper is in
