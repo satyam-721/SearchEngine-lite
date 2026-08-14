@@ -60,7 +60,7 @@ public class IndexTF {
     private void calculateTF(HashMap<String, Integer> wordfreq, Long id, int totalTerm) {
 
         wordfreq.forEach((word,count) -> {
-            float tf = (float) Math.log(  1 + (double) count / totalTerm);
+            float tf =  (float) count / totalTerm;
             termFrequencyRepo.save( new TermFrequency(word, id, tf) );
         });
 

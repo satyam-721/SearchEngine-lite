@@ -8,6 +8,8 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
+import java.util.Optional;
+
 @Repository
 public interface DocFrequencyRepo extends JpaRepository<DocFrequency, String> {
 
@@ -20,4 +22,8 @@ public interface DocFrequencyRepo extends JpaRepository<DocFrequency, String> {
         DO UPDATE SET df = doc_frequency.df + 1
         """, nativeQuery = true)
     void incrementDf(@Param("term") String term);
+
+
+    @Query("SELECT t.df FROM DocFrequency t WHERE t.term = :term")
+    Optional<Float> findDfByTerm(@Param("term") String term);
 }
