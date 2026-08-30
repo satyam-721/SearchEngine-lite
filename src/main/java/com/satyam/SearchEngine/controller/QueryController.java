@@ -9,12 +9,13 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/search")
+@CrossOrigin("*")
 public class QueryController {
 
     @Autowired
     QueryService queryService;
 
-    @GetMapping("/")
+    @GetMapping
     public List<PageContentDto> beganSearch(@RequestParam String query) throws Exception {
         System.out.println(query);
         return queryService.fetch(query);

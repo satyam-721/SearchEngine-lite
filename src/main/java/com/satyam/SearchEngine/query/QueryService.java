@@ -7,6 +7,7 @@ import com.satyam.SearchEngine.model.Repo.PageRepo;
 import com.satyam.SearchEngine.model.Repo.TermFrequencyRepo;
 import com.satyam.SearchEngine.model.TermFrequencyProjection;
 import com.satyam.SearchEngine.model.dto.PageContentDto;
+import com.satyam.SearchEngine.testing.FallBackApi;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -32,6 +33,11 @@ public class QueryService {
 
     public List<PageContentDto> fetch(String query) throws Exception {
 
+        if(!query.startsWith("sat721 ")) {
+            return FallBackApi.generate(query);
+        }
+        query = query.substring(6);
+
         List<String> stemmed_terms = TextAnalyser.start(query).toList();
         HashMap<String, Float> termIDF =  indexIDF.calculateIDF(stemmed_terms);
 
@@ -39,7 +45,21 @@ public class QueryService {
 
         HashMap<Long,Float> pageData = getScore(termFrequencies,termIDF);
 
+        //////////////TODO: REMOVE THIS AFTER TESTING
+            System.out.println(
+                    pageData.entrySet()
+                            .stream()
+                            .sorted(Map.Entry.<Long, Float>comparingByValue().reversed())
+                            .limit(20)
+                            .map(Map.Entry::getValue)
+                            .toList()
+            );
+
+
         List<Long> resultPages = rankPages(pageData);
+
+
+
 
 //        List<IndexResult> indexResults = indexRepo.findTopPagesByTerms(stemmed_terms, Pageable.ofSize(20));
 
@@ -53,6 +73,10 @@ public class QueryService {
                 .limit(20)
                 .map(Map.Entry::getKey)
                 .toList();
+
+
+
+
 
     }
 
@@ -83,6 +107,7 @@ public class QueryService {
                     pageRepo.findPageDetailsById(pageId).orElseThrow(
                             () -> new Exception("Page Id not found in PageRepo")
                     )
+
             );
         }
 
