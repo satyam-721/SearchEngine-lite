@@ -69,6 +69,7 @@ public class CrawlerService {
         System.out.println("CRAWLING REACHED MAX_PAGES !");
     }
 
+    //move to next url  from queue
     private void crawl( Set<String> visited, Queue<String> urlQueue,Set<String> discovered) {
         String queueUrl = urlQueue.poll();
         if(queueUrl == null || visited.contains(queueUrl)) return;   //double guarding
@@ -102,7 +103,7 @@ public class CrawlerService {
 
     }
 
-
+//Creates Bot , handle Errors
     private Document request(String url, Set<String> visited,Page page) {
         Connection con = Jsoup.connect(url)
                 .userAgent("SatyamBot/1.0 ((https://github.com/satyam-721/); satyamsagar305@gmail.com)")
@@ -164,7 +165,7 @@ public class CrawlerService {
     }
 
 
-
+    //Shorten URL, check for domain rules
     private String normalize(String url){
         if(url == null || url.isBlank())
             return null;
@@ -208,7 +209,7 @@ public class CrawlerService {
         return url;
 
     }
-
+        //clean document , save to db
     private void handleParserAndSave(Document doc, String url, Page page) {
 
         String title = doc.title();
@@ -247,6 +248,7 @@ public class CrawlerService {
         indexTF.indexPage(page);
     }
 
+    //avoid re-crawling and skipped pages
     private Page checkCrawlStatus(String url) {
         System.out.println(url);
         Page page = pageRepo.findByUrl(url)

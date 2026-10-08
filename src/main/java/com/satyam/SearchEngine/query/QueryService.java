@@ -45,15 +45,7 @@ public class QueryService {
 
         HashMap<Long,Float> pageData = getScore(termFrequencies,termIDF);
 
-        //////////////TODO: REMOVE THIS AFTER TESTING
-            System.out.println(
-                    pageData.entrySet()
-                            .stream()
-                            .sorted(Map.Entry.<Long, Float>comparingByValue().reversed())
-                            .limit(20)
-                            .map(Map.Entry::getValue)
-                            .toList()
-            );
+
 
 
         List<Long> resultPages = rankPages(pageData);
