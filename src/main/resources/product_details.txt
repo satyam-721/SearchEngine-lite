@@ -1,0 +1,1915 @@
+Title: "Mechanical Gaming Keyboard"
+Description: Compact mechanical keyboard designed for gaming and fast typing with tactile switches.
+Price: $59.99
+Category: Electronics
+Features: RGB lighting, Mechanical switches, Anti-ghosting, Detachable USB cable
+
+Title: "Wireless Bluetooth Speaker"
+Description: Portable speaker delivering clear audio with deep bass and extended playback time.
+Price: $39.99
+Category: Electronics
+Features: Bluetooth 5.2, 20-hour battery, IPX6 waterproof, Built-in microphone
+
+Title: "USB-C Fast Charger 65W"
+Description: Compact GaN charger capable of powering laptops, tablets, and smartphones.
+Price: $34.95
+Category: Mobile Accessories
+Features: 65W output, GaN technology, Multiple ports, Overheat protection
+
+Title: "Noise Cancelling Headphones"
+Description: Over-ear headphones with active noise cancellation for travel, work, and entertainment.
+Price: $89.99
+Category: Electronics
+Features: Active noise cancellation, 40-hour battery, Bluetooth 5.3, Foldable design
+
+Title: "1080p USB Webcam"
+Description: Full HD webcam designed for video calls, online classes, and streaming.
+Price: $32.99
+Category: Computer Accessories
+Features: 1080p resolution, Auto focus, Built-in microphone, Privacy cover
+
+Title: "Portable SSD 1TB"
+Description: High-speed external solid-state drive for transferring and storing large files.
+Price: $79.99
+Category: Computer Accessories
+Features: 1TB storage, USB-C, Compact design, Shock resistant
+
+Title: "Wireless Gaming Headset"
+Description: Low-latency gaming headset with immersive surround sound and a detachable microphone.
+Price: $74.99
+Category: Gaming
+Features: Wireless connection, Surround sound, Detachable microphone, RGB lighting
+
+Title: "Ergonomic Office Chair"
+Description: Adjustable office chair designed to provide lumbar support during long working sessions.
+Price: $149.99
+Category: Office Furniture
+Features: Adjustable armrests, Lumbar support, Reclining backrest, Height adjustment
+
+Title: "Laptop Cooling Pad"
+Description: Cooling stand with multiple fans designed to reduce laptop operating temperatures.
+Price: $29.99
+Category: Computer Accessories
+Features: Five fans, Adjustable speed, USB powered, Adjustable height
+
+Title: "Wireless Vertical Mouse"
+Description: Ergonomic vertical mouse designed to reduce wrist strain during extended computer use.
+Price: $27.99
+Category: Computer Accessories
+Features: Ergonomic grip, Adjustable DPI, Wireless connection, Six buttons
+
+Title: "USB-C Docking Station"
+Description: Multi-port docking station for connecting laptops to displays, storage devices, and peripherals.
+Price: $69.99
+Category: Computer Accessories
+Features: HDMI output, Ethernet port, USB-C charging, SD card reader
+
+Title: "27-Inch IPS Monitor"
+Description: Full HD IPS monitor with wide viewing angles suitable for work, programming, and entertainment.
+Price: $169.99
+Category: Computer Monitors
+Features: 27-inch display, 75Hz refresh rate, IPS panel, HDMI input
+
+Title: "Portable Bluetooth Keyboard"
+Description: Slim wireless keyboard designed for tablets, smartphones, and laptops.
+Price: $24.99
+Category: Computer Accessories
+Features: Bluetooth connectivity, Compact layout, Rechargeable battery, Multi-device support
+
+Title: "Adjustable Monitor Stand"
+Description: Aluminum monitor stand that raises screen height and provides additional desk storage.
+Price: $31.50
+Category: Office Supplies
+Features: Aluminum construction, Cable management, Storage space, Non-slip feet
+
+Title: "USB Desk Fan"
+Description: Compact personal fan suitable for desks, bedside tables, and small workspaces.
+Price: $15.99
+Category: Home Appliances
+Features: Three speeds, USB powered, Quiet motor, Adjustable angle
+
+Title: "Smart Digital Alarm Clock"
+Description: Digital alarm clock with large display and adjustable brightness for bedrooms.
+Price: $21.99
+Category: Home & Living
+Features: LED display, Dual alarms, Snooze function, Temperature display
+
+Title: "Electric Toothbrush"
+Description: Rechargeable electric toothbrush with multiple cleaning modes and a timed brushing cycle.
+Price: $39.99
+Category: Personal Care
+Features: Three cleaning modes, Two-minute timer, USB charging, Waterproof handle
+
+Title: "Water Flosser"
+Description: Cordless water flosser designed for cleaning between teeth and around braces.
+Price: $44.99
+Category: Personal Care
+Features: Five pressure modes, Large water tank, Waterproof, Rechargeable
+
+Title: "Stainless Steel Water Bottle"
+Description: Insulated bottle designed to keep beverages cold or hot for extended periods.
+Price: $24.95
+Category: Sports & Outdoors
+Features: Double-wall insulation, Leak-proof lid, BPA-free, 750ml capacity
+
+Title: "Insulated Travel Mug"
+Description: Stainless steel travel mug designed for coffee, tea, and other hot beverages.
+Price: $18.99
+Category: Kitchen & Dining
+Features: Vacuum insulation, Spill-resistant lid, Cup holder compatible, 450ml capacity
+
+Title: "Electric Coffee Grinder"
+Description: Compact burr grinder providing adjustable grinding levels for fresh coffee preparation.
+Price: $54.99
+Category: Kitchen Appliances
+Features: Burr grinder, Adjustable settings, Removable hopper, One-touch operation
+
+Title: "French Press Coffee Maker"
+Description: Glass French press for preparing rich and flavorful coffee at home.
+Price: $22.50
+Category: Kitchen Appliances
+Features: Borosilicate glass, Stainless steel filter, Heat-resistant handle, 1-liter capacity
+
+Title: "Digital Kitchen Timer"
+Description: Magnetic digital timer with a large display for cooking, baking, and studying.
+Price: $9.99
+Category: Kitchen Tools
+Features: Countdown timer, Magnetic back, Loud alarm, Large LCD
+
+Title: "Stainless Steel Knife Set"
+Description: Kitchen knife collection designed for chopping, slicing, peeling, and food preparation.
+Price: $49.99
+Category: Kitchen Tools
+Features: Six-piece set, Stainless steel blades, Ergonomic handles, Storage block
+
+Title: "Bamboo Cutting Board"
+Description: Durable bamboo cutting board suitable for preparing vegetables, meat, and bread.
+Price: $19.99
+Category: Kitchen Tools
+Features: Bamboo construction, Juice groove, Reversible surface, Easy cleaning
+
+Title: "Non-Stick Saucepan"
+Description: Lightweight saucepan with non-stick coating for everyday cooking.
+Price: $29.99
+Category: Home & Kitchen
+Features: Non-stick coating, Glass lid, Stay-cool handle, Induction compatible
+
+Title: "Cast Iron Dutch Oven"
+Description: Heavy-duty Dutch oven designed for slow cooking, roasting, baking, and stewing.
+Price: $69.99
+Category: Cookware
+Features: Cast iron body, Enamel coating, Oven safe, Heat retention
+
+Title: "Electric Rice Cooker"
+Description: Automatic rice cooker designed to prepare rice, grains, and steamed foods.
+Price: $42.99
+Category: Kitchen Appliances
+Features: One-touch operation, Keep-warm mode, Non-stick pot, Steam basket
+
+Title: "Handheld Milk Frother"
+Description: Battery-powered frother for preparing cappuccinos, lattes, and creamy beverages.
+Price: $12.99
+Category: Kitchen Appliances
+Features: Stainless steel whisk, One-button control, Battery powered, Compact size
+
+Title: "Air Fryer 5 Liter"
+Description: Digital air fryer for preparing crispy meals using significantly less oil than traditional frying.
+Price: $79.99
+Category: Kitchen Appliances
+Features: Five-liter basket, Digital controls, Eight cooking presets, Dishwasher-safe basket
+
+Title: "Electric Food Chopper"
+Description: Compact food processor for chopping vegetables, herbs, nuts, and other ingredients.
+Price: $27.50
+Category: Kitchen Appliances
+Features: Stainless steel blades, One-touch operation, Removable bowl, Compact design
+
+Title: "Silicone Spatula Set"
+Description: Flexible silicone utensils designed for cooking, baking, mixing, and scraping.
+Price: $14.99
+Category: Kitchen Tools
+Features: Heat resistant, Non-scratch, Dishwasher safe, Five-piece set
+
+Title: "Glass Measuring Cup"
+Description: Heat-resistant measuring cup with clearly marked volume measurements.
+Price: $11.49
+Category: Kitchen Tools
+Features: Borosilicate glass, Measurement markings, Pouring handle, Microwave safe
+
+Title: "Airtight Spice Containers"
+Description: Transparent containers designed to keep spices fresh and organized.
+Price: $25.99
+Category: Kitchen Storage
+Features: Airtight lids, Transparent design, Stackable, Label stickers
+
+Title: "Kitchen Drawer Organizer"
+Description: Modular organizer for separating utensils, cutlery, and kitchen accessories.
+Price: $18.75
+Category: Kitchen Storage
+Features: Adjustable sections, Non-slip base, BPA-free plastic, Easy cleaning
+
+Title: "Food Vacuum Sealer"
+Description: Vacuum sealing machine designed to preserve food and reduce freezer burn.
+Price: $59.99
+Category: Kitchen Appliances
+Features: Automatic sealing, Vacuum function, Multiple modes, Compact design
+
+Title: "Reusable Silicone Food Bags"
+Description: Washable silicone storage bags designed to replace disposable plastic bags.
+Price: $23.99
+Category: Kitchen Storage
+Features: Reusable, Leak-resistant, Freezer safe, Dishwasher safe
+
+Title: "Stackable Storage Bins"
+Description: Clear storage containers designed to organize closets, shelves, and cabinets.
+Price: $26.99
+Category: Home Storage
+Features: Transparent body, Stackable, Built-in handles, Durable plastic
+
+Title: "Under-Bed Storage Bags"
+Description: Large fabric storage bags for organizing clothing, blankets, and seasonal items.
+Price: $21.99
+Category: Home Storage
+Features: Zipper closure, Reinforced handles, Foldable, Dust resistant
+
+Title: "Wall Mounted Coat Rack"
+Description: Minimalist wall rack for hanging coats, hats, scarves, and bags.
+Price: $17.50
+Category: Home Organization
+Features: Five hooks, Metal construction, Wall mounting hardware, Space saving
+
+Title: "LED Strip Lights 5 Meter"
+Description: Flexible LED lighting strip suitable for bedrooms, desks, entertainment areas, and cabinets.
+Price: $22.99
+Category: Smart Home
+Features: RGB colors, Remote control, Music synchronization, Adhesive backing
+
+Title: "Smart Wi-Fi Plug"
+Description: Wi-Fi enabled smart plug that allows appliances to be controlled remotely.
+Price: $14.99
+Category: Smart Home
+Features: App control, Voice assistant support, Scheduling, Energy monitoring
+
+Title: "Smart Door Sensor"
+Description: Wireless sensor that sends notifications when doors or windows are opened.
+Price: $19.99
+Category: Smart Home
+Features: Mobile alerts, Magnetic sensor, Battery powered, Easy installation
+
+Title: "Indoor Security Camera"
+Description: Compact Wi-Fi camera for monitoring rooms, pets, children, and entry areas.
+Price: $39.99
+Category: Smart Home
+Features: 1080p video, Motion detection, Night vision, Two-way audio
+
+Title: "Smart Temperature Sensor"
+Description: Wireless temperature and humidity monitor for homes, offices, and storage areas.
+Price: $23.99
+Category: Smart Home
+Features: Temperature monitoring, Humidity sensor, Mobile alerts, Long battery life
+
+Title: "Robot Vacuum Cleaner"
+Description: Automatic robotic vacuum designed to clean hard floors and carpets.
+Price: $189.99
+Category: Home Appliances
+Features: Automatic navigation, App control, Multiple cleaning modes, Charging dock
+
+Title: "Cordless Stick Vacuum"
+Description: Lightweight cordless vacuum designed for quick cleaning of floors, furniture, and stairs.
+Price: $129.99
+Category: Home Appliances
+Features: Cordless operation, HEPA filter, LED headlights, Detachable handheld unit
+
+Title: "Handheld Garment Steamer"
+Description: Portable garment steamer that removes wrinkles from shirts, dresses, and jackets.
+Price: $34.99
+Category: Home Appliances
+Features: Fast heating, Continuous steam, Compact body, Auto shut-off
+
+Title: "Electric Heating Pad"
+Description: Flexible heating pad designed to provide adjustable warmth for relaxation.
+Price: $29.99
+Category: Home & Living
+Features: Six heat levels, Auto shut-off, Soft fabric, Machine washable cover
+
+Title: "Weighted Blanket"
+Description: Heavy blanket designed to provide gentle pressure and warmth during rest.
+Price: $59.99
+Category: Bedding
+Features: Breathable fabric, Glass bead filling, Removable cover, Multiple sizes
+
+Title: "Cotton Bedsheet Set"
+Description: Soft cotton bedding set including a fitted sheet, flat sheet, and pillow covers.
+Price: $39.99
+Category: Bedding
+Features: 100% cotton, Machine washable, Breathable fabric, Queen size
+
+Title: "Memory Foam Mattress Topper"
+Description: Pressure-relieving foam topper designed to improve mattress comfort.
+Price: $89.99
+Category: Bedding
+Features: Memory foam, Washable cover, Ventilated design, Queen size
+
+Title: "Blackout Window Curtains"
+Description: Thick curtains designed to block external light and reduce room temperature.
+Price: $34.99
+Category: Home & Living
+Features: Blackout fabric, Thermal insulation, Noise reduction, Metal eyelets
+
+Title: "Decorative Table Lamp"
+Description: Modern bedside lamp providing warm ambient lighting for bedrooms and living rooms.
+Price: $28.99
+Category: Home Decor
+Features: Fabric shade, Warm light, Touch switch, Compact design
+
+Title: "Minimalist Wall Clock"
+Description: Modern analog wall clock designed for bedrooms, offices, and living spaces.
+Price: $24.99
+Category: Home Decor
+Features: Silent movement, Large numbers, Lightweight frame, Battery powered
+
+Title: "Artificial Indoor Plant"
+Description: Realistic decorative plant designed to add greenery to indoor spaces without maintenance.
+Price: $19.99
+Category: Home Decor
+Features: Realistic leaves, No watering required, Decorative pot, UV resistant
+
+Title: "Cotton Cushion Covers"
+Description: Decorative cushion covers made from durable woven cotton fabric.
+Price: $15.99
+Category: Home Decor
+Features: Hidden zipper, Machine washable, Soft fabric, Set of four
+
+Title: "Scented Soy Candles"
+Description: Soy wax candles designed to provide relaxing fragrance for bedrooms and living rooms.
+Price: $21.99
+Category: Home Decor
+Features: Soy wax, Long burn time, Cotton wick, Three fragrances
+
+Title: "Essential Oil Diffuser"
+Description: Ultrasonic diffuser that disperses essential oil mist while adding moisture to indoor air.
+Price: $31.99
+Category: Home Appliances
+Features: Ultrasonic operation, LED lighting, Auto shut-off, Multiple mist modes
+
+Title: "Bamboo Laundry Basket"
+Description: Foldable laundry basket made with breathable fabric and a lightweight bamboo frame.
+Price: $32.99
+Category: Home Organization
+Features: Foldable, Bamboo frame, Carry handles, Removable liner
+
+Title: "Microfiber Cleaning Cloths"
+Description: Reusable microfiber cloths for cleaning glass, electronics, kitchens, and furniture.
+Price: $12.99
+Category: Cleaning Supplies
+Features: Lint-free, Reusable, Highly absorbent, Machine washable
+
+Title: "Cordless Electric Scrubber"
+Description: Rechargeable cleaning brush designed for bathrooms, kitchens, tiles, and difficult surfaces.
+Price: $49.99
+Category: Cleaning Supplies
+Features: Multiple brush heads, Rechargeable battery, Adjustable handle, Water resistant
+
+Title: "Window Cleaning Kit"
+Description: Complete cleaning set for windows, mirrors, glass doors, and other smooth surfaces.
+Price: $24.99
+Category: Cleaning Supplies
+Features: Squeegee, Microfiber pad, Spray bottle, Extendable handle
+
+Title: "Concentrated Floor Cleaner"
+Description: Concentrated cleaning solution suitable for tile, laminate, vinyl, and sealed floors.
+Price: $13.49
+Category: Cleaning Supplies
+Features: Fresh fragrance, Concentrated formula, Streak-free, Large bottle
+
+Title: "Laundry Detergent Sheets"
+Description: Lightweight detergent sheets designed to dissolve quickly during washing.
+Price: $18.99
+Category: Laundry
+Features: Plastic-free packaging, Pre-measured sheets, Travel friendly, Low residue
+
+Title: "Fabric Lint Remover"
+Description: Rechargeable fabric shaver for removing lint and pills from sweaters and clothing.
+Price: $22.99
+Category: Laundry
+Features: Rechargeable, Stainless steel mesh, Adjustable speed, Removable lint container
+
+Title: "Clothes Drying Rack"
+Description: Foldable drying rack for indoor and outdoor laundry.
+Price: $36.99
+Category: Laundry
+Features: Foldable frame, Rust resistant, Multiple drying levels, Lightweight
+
+Title: "Travel Packing Cubes"
+Description: Compression packing cubes designed to organize clothes and accessories inside luggage.
+Price: $25.99
+Category: Travel Accessories
+Features: Compression zipper, Breathable mesh, Multiple sizes, Durable fabric
+
+Title: "Hard Shell Carry-On Suitcase"
+Description: Lightweight cabin suitcase designed for short trips and business travel.
+Price: $89.99
+Category: Travel Accessories
+Features: Spinner wheels, TSA lock, Telescopic handle, Scratch-resistant shell
+
+Title: "Travel Neck Pillow"
+Description: Memory foam neck pillow designed to provide support during flights and long journeys.
+Price: $21.99
+Category: Travel Accessories
+Features: Memory foam, Adjustable strap, Washable cover, Compact design
+
+Title: "Digital Luggage Scale"
+Description: Portable scale for checking luggage weight before flights.
+Price: $12.99
+Category: Travel Accessories
+Features: LCD display, Tare function, 50kg capacity, Auto-off
+
+Title: "Waterproof Passport Holder"
+Description: Compact travel wallet designed to protect passports, cards, tickets, and documents.
+Price: $16.99
+Category: Travel Accessories
+Features: Waterproof fabric, RFID protection, Multiple compartments, Wrist strap
+
+Title: "Universal Travel Adapter"
+Description: Multi-country power adapter suitable for travelers using electronics internationally.
+Price: $29.99
+Category: Travel Accessories
+Features: Multiple plug types, USB ports, Surge protection, Compact design
+
+Title: "Portable Travel Bottles"
+Description: Refillable silicone bottles for carrying shampoo, conditioner, lotion, and other liquids.
+Price: $11.99
+Category: Travel Accessories
+Features: Leak-proof caps, TSA compatible, Silicone material, Four-piece set
+
+Title: "Waterproof Dry Bag 20L"
+Description: Roll-top waterproof bag designed to protect clothes and electronics during outdoor activities.
+Price: $27.99
+Category: Outdoor Gear
+Features: Waterproof fabric, Roll-top closure, Adjustable straps, 20-liter capacity
+
+Title: "Camping Sleeping Bag"
+Description: Insulated sleeping bag designed for camping and outdoor overnight trips.
+Price: $54.99
+Category: Outdoor Gear
+Features: Lightweight insulation, Compression sack, Zipper closure, Three-season design
+
+Title: "Portable Camping Stove"
+Description: Compact gas stove designed for outdoor cooking and camping trips.
+Price: $39.99
+Category: Camping
+Features: Adjustable flame, Foldable legs, Piezo ignition, Carrying case
+
+Title: "Camping Lantern"
+Description: Rechargeable LED lantern providing bright illumination for tents, campsites, and emergencies.
+Price: $26.99
+Category: Camping
+Features: Rechargeable battery, Multiple brightness levels, USB charging, Hanging hook
+
+Title: "Foldable Camping Chair"
+Description: Portable chair designed for camping, fishing, picnics, and outdoor events.
+Price: $34.99
+Category: Outdoor Gear
+Features: Foldable frame, Cup holder, Carry bag, Steel construction
+
+Title: "Hiking Backpack 30L"
+Description: Lightweight hiking backpack with multiple compartments for day trips and outdoor adventures.
+Price: $64.99
+Category: Outdoor Gear
+Features: 30-liter capacity, Hydration compatible, Chest strap, Rain cover
+
+Title: "Trekking Poles"
+Description: Adjustable aluminum trekking poles designed to improve stability during hikes.
+Price: $31.99
+Category: Outdoor Gear
+Features: Adjustable length, Cork handles, Shock absorption, Rubber tips
+
+Title: "Insulated Picnic Basket"
+Description: Portable insulated basket designed to keep food and beverages cool during outdoor activities.
+Price: $42.99
+Category: Outdoor Gear
+Features: Thermal insulation, Foldable design, Shoulder strap, Waterproof lining
+
+Title: "Running Hydration Belt"
+Description: Lightweight running belt with water bottle holders and storage compartments.
+Price: $24.99
+Category: Fitness
+Features: Adjustable waist, Reflective strips, Bottle holders, Zipper pocket
+
+Title: "Adjustable Dumbbell Set"
+Description: Space-saving dumbbell system allowing multiple weight combinations for home workouts.
+Price: $119.99
+Category: Fitness
+Features: Adjustable weights, Compact storage, Non-slip handles, Multiple resistance levels
+
+Title: "Resistance Bands Set"
+Description: Elastic resistance bands for strength training, mobility exercises, and rehabilitation workouts.
+Price: $22.99
+Category: Fitness
+Features: Five resistance levels, Door anchor, Handles, Carry bag
+
+Title: "Kettlebell 12kg"
+Description: Cast iron kettlebell designed for strength training, conditioning, and functional workouts.
+Price: $39.99
+Category: Fitness
+Features: Cast iron body, Wide handle, Flat base, 12kg weight
+
+Title: "Foam Roller"
+Description: High-density foam roller for muscle recovery, stretching, and mobility exercises.
+Price: $24.99
+Category: Fitness
+Features: High-density foam, Textured surface, Lightweight, 60cm length
+
+Title: "Fitness Exercise Mat"
+Description: Thick cushioned exercise mat designed for stretching, Pilates, and home workouts.
+Price: $29.99
+Category: Fitness
+Features: 10mm thickness, Non-slip surface, Waterproof, Carry strap
+
+Title: "Adjustable Jump Rope"
+Description: Lightweight speed rope designed for cardio training, boxing, and fitness workouts.
+Price: $15.99
+Category: Fitness
+Features: Adjustable length, Ball bearings, Foam handles, Lightweight cable
+
+Title: "Smart Fitness Tracker"
+Description: Wearable activity tracker that monitors steps, workouts, sleep, and heart rate.
+Price: $59.99
+Category: Wearable Technology
+Features: Step tracking, Heart-rate monitoring, Sleep tracking, Water resistance
+
+Title: "Digital Kitchen Scale Pro"
+Description: High-precision kitchen scale designed for baking, meal preparation, and portion control.
+Price: $19.99
+Category: Kitchen Tools
+Features: 0.1g precision, Tare function, Stainless steel platform, LCD display
+
+Title: "Men's Casual Sneakers"
+Description: Everyday sneakers combining breathable fabric with a lightweight cushioned sole.
+Price: $45.99
+Category: Footwear
+Features: Breathable upper, Rubber sole, Cushioned footbed, Lace-up closure
+
+Title: "Women's Walking Shoes"
+Description: Comfortable walking shoes designed for daily activities, travel, and extended periods on foot.
+Price: $42.99
+Category: Footwear
+Features: Memory foam insole, Breathable mesh, Flexible sole, Arch support
+
+Title: "Unisex Canvas Sneakers"
+Description: Classic canvas sneakers suitable for casual everyday outfits and weekend activities.
+Price: $29.99
+Category: Footwear
+Features: Canvas upper, Rubber outsole, Padded collar, Multiple colors
+
+Title: "Trail Running Shoes"
+Description: Durable trail shoes designed for running on uneven terrain and outdoor paths.
+Price: $69.99
+Category: Footwear
+Features: Aggressive tread, Toe protection, Breathable mesh, Cushioned midsole
+
+Title: "Waterproof Hiking Boots"
+Description: High-ankle hiking boots designed for wet trails, rocky terrain, and outdoor adventures.
+Price: $84.99
+Category: Footwear
+Features: Waterproof membrane, Ankle support, Reinforced toe, Vibram-style outsole
+
+Title: "Leather Formal Shoes"
+Description: Classic formal shoes crafted for office wear, meetings, weddings, and formal events.
+Price: $79.99
+Category: Footwear
+Features: Genuine leather, Cushioned insole, Slip-resistant sole, Lace-up design
+
+Title: "Running Shorts"
+Description: Lightweight athletic shorts designed for running, training, and gym workouts.
+Price: $21.99
+Category: Sportswear
+Features: Quick-dry fabric, Elastic waistband, Zipper pocket, Reflective details
+
+Title: "Performance T-Shirt"
+Description: Moisture-wicking athletic shirt designed to keep the body comfortable during exercise.
+Price: $19.99
+Category: Sportswear
+Features: Quick-dry material, Breathable fabric, Stretch fit, Lightweight
+
+Title: "Hooded Sweatshirt"
+Description: Comfortable cotton-blend hoodie suitable for casual wear and cool weather.
+Price: $34.99
+Category: Clothing
+Features: Kangaroo pocket, Drawstring hood, Ribbed cuffs, Cotton blend
+
+Title: "Classic Denim Jacket"
+Description: Durable denim jacket designed for casual outfits and everyday outdoor wear.
+Price: $59.99
+Category: Clothing
+Features: Cotton denim, Button closure, Chest pockets, Regular fit
+
+Title: "Men's Casual Shirt"
+Description: Soft cotton casual shirt suitable for everyday wear, travel, and informal occasions.
+Price: $27.99
+Category: Clothing
+Features: Cotton fabric, Button closure, Regular fit, Machine washable
+
+Title: "Women's Linen Blouse"
+Description: Lightweight linen-blend blouse designed for comfortable warm-weather wear.
+Price: $32.99
+Category: Clothing
+Features: Linen blend, Breathable fabric, Relaxed fit, Button front
+
+Title: "Slim Fit Chinos"
+Description: Versatile cotton trousers suitable for office-casual outfits and weekend wear.
+Price: $39.99
+Category: Clothing
+Features: Stretch fabric, Slim fit, Belt loops, Four pockets
+
+Title: "Winter Puffer Jacket"
+Description: Insulated puffer jacket designed to provide warmth during cold outdoor conditions.
+Price: $89.99
+Category: Clothing
+Features: Synthetic insulation, Water-resistant shell, Zip pockets, Adjustable hood
+
+Title: "Wool Blend Scarf"
+Description: Soft winter scarf made from a warm wool blend for cold-weather outfits.
+Price: $24.99
+Category: Fashion Accessories
+Features: Wool blend, Fringed edges, Lightweight, Unisex design
+
+Title: "Leather Wallet"
+Description: Slim leather wallet designed to hold cards, cash, and identification documents.
+Price: $29.99
+Category: Fashion Accessories
+Features: Genuine leather, Six card slots, Cash compartment, RFID blocking
+
+Title: "Canvas Belt"
+Description: Adjustable woven belt suitable for casual jeans, chinos, and outdoor clothing.
+Price: $17.99
+Category: Fashion Accessories
+Features: Woven fabric, Metal buckle, Adjustable length, Casual design
+
+Title: "Polarized Sunglasses"
+Description: UV-protective sunglasses designed to reduce glare during outdoor activities and driving.
+Price: $35.99
+Category: Fashion Accessories
+Features: Polarized lenses, UV400 protection, Scratch-resistant coating, Lightweight frame
+
+Title: "Classic Analog Watch"
+Description: Minimalist analog wristwatch suitable for business, casual, and everyday wear.
+Price: $49.99
+Category: Fashion
+Features: Quartz movement, Stainless steel case, Mineral glass, Date display
+
+Title: "Digital Sports Watch"
+Description: Durable digital watch designed for workouts, outdoor activities, and daily use.
+Price: $32.99
+Category: Wearable Technology
+Features: Stopwatch, Alarm, Backlight, Water resistance
+
+Title: "Stainless Steel Bracelet"
+Description: Minimalist metal bracelet designed as a versatile fashion accessory.
+Price: $18.99
+Category: Fashion Accessories
+Features: Stainless steel, Adjustable clasp, Polished finish, Scratch resistant
+
+Title: "Classic Baseball Cap"
+Description: Adjustable cotton cap suitable for casual outfits, outdoor activities, and sports.
+Price: $16.99
+Category: Fashion Accessories
+Features: Adjustable strap, Cotton fabric, Curved brim, Embroidered design
+
+Title: "Leather Messenger Bag"
+Description: Structured messenger bag suitable for commuting, work, college, and everyday travel.
+Price: $69.99
+Category: Bags
+Features: Laptop compartment, Genuine leather, Adjustable strap, Multiple pockets
+
+Title: "Canvas Tote Bag"
+Description: Reusable tote bag designed for shopping, books, groceries, and everyday carrying.
+Price: $14.99
+Category: Bags
+Features: Cotton canvas, Reinforced handles, Foldable, Machine washable
+
+Title: "Laptop Backpack 15.6 Inch"
+Description: Padded backpack designed to carry laptops, books, accessories, and everyday essentials.
+Price: $49.99
+Category: Bags
+Features: Laptop sleeve, USB charging port, Water-resistant fabric, Multiple compartments
+
+Title: "Camera Shoulder Bag"
+Description: Protective camera bag designed to store a mirrorless or DSLR camera and accessories.
+Price: $44.99
+Category: Camera Accessories
+Features: Padded dividers, Adjustable strap, Water-resistant fabric, Memory card pocket
+
+Title: "Tripod Stand 60 Inch"
+Description: Adjustable tripod suitable for cameras, smartphones, video recording, and photography.
+Price: $39.99
+Category: Camera Accessories
+Features: Aluminum legs, Adjustable height, Phone holder, Carrying bag
+
+Title: "Ring Light 12 Inch"
+Description: LED ring light designed for photography, video calls, streaming, and content creation.
+Price: $29.99
+Category: Photography
+Features: Three lighting modes, Adjustable brightness, Phone holder, Tripod stand
+
+Title: "USB Microphone"
+Description: Condenser microphone designed for podcasting, gaming, streaming, and online meetings.
+Price: $54.99
+Category: Audio Equipment
+Features: USB connection, Cardioid pattern, Volume control, Desktop stand
+
+Title: "Studio Monitor Headphones"
+Description: Over-ear headphones designed for music production, editing, and critical listening.
+Price: $79.99
+Category: Audio Equipment
+Features: Closed-back design, Wide frequency response, Detachable cable, Padded ear cups
+
+Title: "Portable Audio Recorder"
+Description: Compact digital recorder for capturing interviews, lectures, meetings, and field audio.
+Price: $69.99
+Category: Audio Equipment
+Features: Stereo recording, Built-in microphones, MicroSD support, USB transfer
+
+Title: "Wireless Lavalier Microphone"
+Description: Compact wireless microphone system designed for presentations, interviews, and mobile video.
+Price: $89.99
+Category: Audio Equipment
+Features: Wireless transmission, Noise reduction, USB-C receiver, Rechargeable case
+
+Title: "HDMI Capture Card"
+Description: USB capture device for recording video from cameras, consoles, and other HDMI sources.
+Price: $44.99
+Category: Streaming Equipment
+Features: 1080p capture, HDMI input, USB connection, Plug-and-play
+
+Title: "Gaming Controller"
+Description: Wireless controller designed for PC gaming with responsive buttons and analog sticks.
+Price: $49.99
+Category: Gaming
+Features: Wireless connection, Dual analog sticks, Vibration feedback, Rechargeable battery
+
+Title: "Mechanical Gaming Mouse"
+Description: Lightweight gaming mouse designed for fast and precise cursor movement.
+Price: $39.99
+Category: Gaming
+Features: Adjustable DPI, RGB lighting, Programmable buttons, Lightweight shell
+
+Title: "Large Gaming Mouse Pad"
+Description: Extended mouse pad providing a smooth surface for gaming keyboards and mice.
+Price: $24.99
+Category: Gaming
+Features: Large surface, Non-slip rubber base, Stitched edges, Water-resistant coating
+
+Title: "Gaming Desk"
+Description: Spacious computer desk designed for gaming setups, streaming equipment, and accessories.
+Price: $129.99
+Category: Gaming Furniture
+Features: Cable management, Headset hook, Cup holder, Large desktop
+
+Title: "RGB Gaming Chair"
+Description: Ergonomic gaming chair with adjustable reclining support and integrated RGB lighting.
+Price: $179.99
+Category: Gaming Furniture
+Features: RGB lighting, Reclining backrest, Adjustable armrests, Lumbar cushion
+
+Title: "Laptop Sleeve 15 Inch"
+Description: Protective padded sleeve designed to carry and protect laptops during travel and commuting.
+Price: $18.99
+Category: Computer Accessories
+Features: Water-resistant fabric, Padded interior, Zipper closure, Accessory pocket
+
+Title: "Wireless Presenter"
+Description: Presentation remote designed for controlling slides during meetings, lectures, and presentations.
+Price: $19.99
+Category: Office Supplies
+Features: Wireless receiver, Laser pointer, Slide controls, USB rechargeable
+
+Title: "A4 Document Scanner"
+Description: Compact scanner designed to digitize documents, receipts, photographs, and notes.
+Price: $109.99
+Category: Office Equipment
+Features: High resolution, Automatic document feeder, USB connection, PDF scanning
+
+Title: "Laser Printer"
+Description: Monochrome laser printer designed for fast document printing at home or in small offices.
+Price: $149.99
+Category: Office Equipment
+Features: Wireless printing, Duplex printing, High-speed output, Mobile printing
+
+Title: "Wireless Label Printer"
+Description: Compact thermal printer for creating labels, shipping stickers, organization tags, and receipts.
+Price: $45.99
+Category: Office Equipment
+Features: Bluetooth, Thermal printing, Mobile app, No ink required
+
+Title: "A4 Notebook Set"
+Description: Pack of ruled notebooks suitable for school, college, office, and personal notes.
+Price: $14.99
+Category: Stationery
+Features: Ruled pages, Hardcover, 200 pages each, Elastic closure
+
+Title: "Gel Pen Set"
+Description: Smooth-writing gel pens suitable for note-taking, journaling, and office work.
+Price: $9.99
+Category: Stationery
+Features: Quick-drying ink, Fine tip, Ten colors, Comfortable grip
+
+Title: "Mechanical Pencil Set"
+Description: Refillable mechanical pencils designed for writing, drawing, and technical work.
+Price: $11.99
+Category: Stationery
+Features: 0.5mm lead, Eraser tip, Metal clip, Replacement leads
+
+Title: "Desk Organizer"
+Description: Multi-compartment organizer for pens, stationery, notes, cables, and small office supplies.
+Price: $17.99
+Category: Office Accessories
+Features: Multiple compartments, Durable plastic, Compact footprint, Drawer section
+
+Title: "Whiteboard 3x2 Feet"
+Description: Magnetic whiteboard designed for classrooms, offices, planning, brainstorming, and study.
+Price: $34.99
+Category: Office Supplies
+Features: Magnetic surface, Marker tray, Wall mounting kit, Easy erase coating
+
+Title: "Reusable Sticky Notes"
+Description: Reusable adhesive notes designed for reminders, planning, studying, and organization.
+Price: $8.99
+Category: Stationery
+Features: Repositionable adhesive, Waterproof, Multiple colors, Reusable
+
+Title: "Scientific Calculator"
+Description: Advanced calculator suitable for engineering, mathematics, physics, and technical education.
+Price: $24.99
+Category: Educational Supplies
+Features: 240 functions, Solar powered, Fraction calculations, Multi-line display
+
+Title: "Engineering Drawing Kit"
+Description: Complete geometry and technical drawing set for students and drafting work.
+Price: $19.99
+Category: Educational Supplies
+Features: Compass, Protractor, Set squares, Technical pencils
+
+Title: "Java Programming Handbook"
+Description: Practical programming book covering Java syntax, object-oriented programming, collections, and exceptions.
+Price: $32.99
+Category: Books
+Features: Java examples, Exercises, OOP concepts, Reference sections
+
+Title: "Data Structures Workbook"
+Description: Practice-focused book covering arrays, linked lists, stacks, queues, trees, graphs, and algorithms.
+Price: $29.99
+Category: Books
+Features: Coding exercises, Algorithm diagrams, Complexity analysis, Practice problems
+
+Title: "Database Design Guide"
+Description: Technical guide covering relational databases, SQL queries, normalization, indexes, and transactions.
+Price: $34.99
+Category: Books
+Features: SQL examples, ER diagrams, Normalization, Query exercises
+
+Title: "Spring Boot Development Guide"
+Description: Developer reference covering Spring Boot applications, REST APIs, dependency injection, and database integration.
+Price: $39.99
+Category: Books
+Features: REST examples, Spring MVC, JPA, Security concepts
+
+Title: "Clean Code Workbook"
+Description: Practical programming guide focused on writing maintainable, readable, and testable software.
+Price: $31.99
+Category: Books
+Features: Refactoring examples, Naming principles, Testing practices, Code smells
+
+Title: "Algorithms Practice Cards"
+Description: Flashcard-style learning set covering common data structures, algorithms, and problem-solving patterns.
+Price: $16.99
+Category: Educational Supplies
+Features: Array patterns, Graph algorithms, Dynamic programming, Complexity cards
+
+Title: "Programming Desk Mat"
+Description: Large desk mat designed for keyboards, mice, notebooks, and programming workspaces.
+Price: $21.99
+Category: Office Accessories
+Features: Large surface, Waterproof coating, Non-slip base, Stitched edges
+
+Title: "USB-C Flash Drive 128GB"
+Description: Compact flash drive with USB-C connectivity for transferring files between modern devices.
+Price: $17.99
+Category: Storage Devices
+Features: 128GB storage, USB-C connector, Compact body, Plug-and-play
+
+Title: "Portable Hard Drive 2TB"
+Description: External hard drive designed for backups, media storage, and large file transfers.
+Price: $69.99
+Category: Storage Devices
+Features: 2TB capacity, USB 3.0, Portable design, Backup compatible
+
+Title: "MicroSD Card 256GB"
+Description: High-capacity memory card suitable for smartphones, cameras, tablets, and handheld gaming devices.
+Price: $24.99
+Category: Storage Devices
+Features: 256GB capacity, High-speed transfer, Water resistant, Shock resistant
+
+Title: "NVMe SSD 1TB"
+Description: High-performance internal SSD designed for desktops and laptops requiring fast storage.
+Price: $84.99
+Category: Computer Components
+Features: NVMe interface, 1TB capacity, High read speed, Low latency
+
+Title: "DDR5 RAM 16GB"
+Description: High-speed desktop memory module designed for modern gaming and productivity computers.
+Price: $54.99
+Category: Computer Components
+Features: 16GB capacity, DDR5 technology, High frequency, Heat spreader
+
+Title: "Wireless Router AX3000"
+Description: Dual-band Wi-Fi router designed for high-speed home networking and multiple connected devices.
+Price: $89.99
+Category: Networking
+Features: Wi-Fi 6, Gigabit Ethernet, Dual band, Parental controls
+
+Title: "Gigabit Ethernet Switch"
+Description: Compact network switch for connecting multiple wired devices in homes, offices, and labs.
+Price: $29.99
+Category: Networking
+Features: Eight ports, Gigabit speed, Plug-and-play, Metal housing
+
+Title: "USB Wi-Fi Adapter"
+Description: Compact wireless network adapter for desktop computers and laptops without built-in Wi-Fi.
+Price: $16.99
+Category: Networking
+Features: Dual-band Wi-Fi, USB 3.0, Plug-and-play, Compact antenna
+
+Title: "Bluetooth USB Adapter"
+Description: Small USB adapter that adds Bluetooth connectivity to desktop computers and laptops.
+Price: $11.99
+Category: Computer Accessories
+Features: Bluetooth 5.3, USB interface, Low energy support, Compact design
+
+Title: "Smartphone Tripod Mount"
+Description: Adjustable phone holder designed for tripods, desks, photography, and video recording.
+Price: $12.99
+Category: Mobile Accessories
+Features: Adjustable width, Universal compatibility, 360-degree rotation, Tripod thread
+
+Title: "Magnetic Phone Holder"
+Description: Magnetic phone mount designed for desks, cars, and workspaces.
+Price: $18.99
+Category: Mobile Accessories
+Features: Strong magnet, 360-degree rotation, Adjustable arm, Metal base
+
+Title: "Phone Screen Protector"
+Description: Tempered glass screen protector designed to reduce scratches and protect smartphone displays.
+Price: $9.99
+Category: Mobile Accessories
+Features: Tempered glass, 9H hardness, Oleophobic coating, Easy installation
+
+Title: "Universal Phone Stand"
+Description: Adjustable desktop stand suitable for smartphones during video calls, streaming, and charging.
+Price: $13.99
+Category: Mobile Accessories
+Features: Adjustable angle, Foldable, Non-slip pads, Cable opening
+
+Title: "Power Bank 20000mAh"
+Description: High-capacity portable battery designed to recharge smartphones, tablets, and other USB devices.
+Price: $39.99
+Category: Mobile Accessories
+Features: 20000mAh capacity, USB-C input, Multiple outputs, LED battery display
+
+Title: "Solar Power Bank"
+Description: Outdoor power bank with solar charging capability for emergency and travel use.
+Price: $44.99
+Category: Outdoor Gear
+Features: Solar panel, 10000mAh battery, LED flashlight, Waterproof body
+
+Title: "USB-C Cable 2 Meter"
+Description: Durable charging and data cable suitable for phones, tablets, laptops, and accessories.
+Price: $10.99
+Category: Mobile Accessories
+Features: USB-C connectors, Braided nylon, Fast charging, Two-meter length
+
+Title: "HDMI 2.1 Cable"
+Description: High-speed HDMI cable designed for modern gaming consoles, TVs, and high-resolution monitors.
+Price: $15.99
+Category: Electronics Accessories
+Features: 8K support, 120Hz support, HDR compatible, Braided exterior
+
+Title: "DisplayPort Cable"
+Description: High-bandwidth display cable for connecting computers to monitors with high refresh rates.
+Price: $13.99
+Category: Computer Accessories
+Features: DisplayPort 1.4, 8K support, High refresh rate, Gold-plated connectors
+
+Title: "USB Hub 7-Port"
+Description: Multi-port USB hub that expands connectivity for laptops and desktop computers.
+Price: $25.99
+Category: Computer Accessories
+Features: Seven USB ports, USB 3.0, Plug-and-play, Individual switches
+
+Title: "Cable Management Sleeve"
+Description: Flexible sleeve designed to bundle and organize multiple cables behind desks.
+Price: $12.49
+Category: Office Accessories
+Features: Zipper closure, Flexible material, Cuttable length, Reusable
+
+Title: "Surge Protector 8-Outlet"
+Description: Multi-outlet power strip designed to protect electronic devices from electrical surges.
+Price: $29.99
+Category: Electronics Accessories
+Features: Eight outlets, Surge protection, USB ports, Safety switch
+
+Title: "Smart Power Strip"
+Description: Wi-Fi enabled power strip allowing connected devices to be controlled remotely.
+Price: $39.99
+Category: Smart Home
+Features: App control, Voice assistant support, Four outlets, Scheduling
+
+Title: "Rechargeable AA Batteries"
+Description: High-capacity rechargeable batteries suitable for cameras, controllers, toys, and household electronics.
+Price: $19.99
+Category: Electronics Accessories
+Features: Four batteries, Rechargeable, Low self-discharge, Battery charger included
+
+Title: "LED Flashlight"
+Description: Compact high-brightness flashlight designed for camping, emergencies, repairs, and outdoor use.
+Price: $17.99
+Category: Outdoor Gear
+Features: Adjustable beam, Rechargeable battery, Water resistant, Multiple brightness modes
+
+Title: "Headlamp 500 Lumens"
+Description: Hands-free LED headlamp suitable for hiking, camping, running, and repair work.
+Price: $23.99
+Category: Outdoor Gear
+Features: 500 lumens, Adjustable strap, USB charging, Multiple modes
+
+Title: "Emergency First Aid Kit"
+Description: Portable first aid kit containing essential supplies for home, travel, camping, and emergencies.
+Price: $34.99
+Category: Safety Supplies
+Features: Bandages, Gauze pads, Antiseptic wipes, Carrying case
+
+Title: "Home Tool Kit 100-Piece"
+Description: Comprehensive household tool set for basic repairs, furniture assembly, and maintenance.
+Price: $64.99
+Category: Tools
+Features: Screwdrivers, Pliers, Hammer, Measuring tape
+
+Title: "Cordless Electric Screwdriver"
+Description: Rechargeable screwdriver designed for furniture assembly, electronics repair, and household maintenance.
+Price: $39.99
+Category: Tools
+Features: Rechargeable battery, LED light, Multiple bits, Adjustable torque
+
+Title: "Digital Laser Distance Meter"
+Description: Compact laser measuring device for accurately measuring room dimensions and distances.
+Price: $31.99
+Category: Tools
+Features: 40-meter range, LCD display, Area calculation, Auto-off
+
+Title: "Adjustable Wrench Set"
+Description: Set of durable adjustable wrenches designed for plumbing, repairs, and mechanical tasks.
+Price: $27.99
+Category: Tools
+Features: Chrome steel, Multiple sizes, Non-slip grip, Corrosion resistant
+
+Title: "Precision Screwdriver Kit"
+Description: Small screwdriver set designed for electronics, laptops, watches, and small appliances.
+Price: $22.99
+Category: Tools
+Features: 24 bits, Magnetic tips, Rotating handle, Storage case
+
+Title: "Digital Multimeter"
+Description: Electrical testing instrument designed to measure voltage, current, resistance, and continuity.
+Price: $34.99
+Category: Tools
+Features: Digital display, Auto-ranging, Continuity test, Overload protection
+
+Title: "Soldering Iron Kit"
+Description: Temperature-controlled soldering station for electronics repair and hobby projects.
+Price: $45.99
+Category: Electronics Tools
+Features: Adjustable temperature, Solder wire, Replacement tips, Stand
+
+Title: "Heat Gun"
+Description: Adjustable heat gun designed for shrink tubing, crafts, paint removal, and repair work.
+Price: $32.99
+Category: Tools
+Features: Variable temperature, Two airflow settings, Overheat protection, Heat stand
+
+Title: "Cordless Drill Driver"
+Description: Battery-powered drill designed for drilling and fastening tasks around the home and workshop.
+Price: $79.99
+Category: Power Tools
+Features: Two-speed gearbox, LED work light, Adjustable clutch, Rechargeable battery
+
+Title: "Circular Saw"
+Description: Compact electric circular saw designed for cutting wood, plywood, and construction materials.
+Price: $99.99
+Category: Power Tools
+Features: Adjustable depth, Safety trigger, Dust port, Ergonomic handle
+
+Title: "Orbital Sander"
+Description: Compact power sander designed for smoothing wood surfaces and removing old finishes.
+Price: $59.99
+Category: Power Tools
+Features: Variable speed, Dust collection, Hook-and-loop pad, Ergonomic grip
+
+Title: "Electric Glue Gun"
+Description: Compact hot glue gun designed for crafts, repairs, decorations, and DIY projects.
+Price: $14.99
+Category: Craft Supplies
+Features: Fast heating, Safety stand, Glue sticks included, Ergonomic handle
+
+Title: "Acrylic Paint Set"
+Description: Multi-color acrylic paint collection suitable for canvas, wood, crafts, and decorative projects.
+Price: $18.99
+Category: Art Supplies
+Features: Twenty-four colors, Non-toxic formula, Quick drying, Mixing palette
+
+Title: "Watercolor Painting Set"
+Description: Portable watercolor kit designed for students, artists, and hobby painters.
+Price: $21.99
+Category: Art Supplies
+Features: Thirty-six colors, Paint brush, Mixing palette, Portable case
+
+Title: "Sketching Pencil Set"
+Description: Artist pencil set containing different hardness levels for drawing, shading, and sketching.
+Price: $16.99
+Category: Art Supplies
+Features: Graphite pencils, Multiple hardness levels, Eraser, Sharpener
+
+Title: "Calligraphy Pen Set"
+Description: Traditional calligraphy kit designed for handwriting practice, lettering, and artistic writing.
+Price: $19.99
+Category: Art Supplies
+Features: Multiple nibs, Ink cartridges, Practice guide, Storage case
+
+Title: "Craft Cutting Mat"
+Description: Self-healing cutting mat designed to protect work surfaces during crafting and model making.
+Price: $17.99
+Category: Craft Supplies
+Features: Self-healing surface, Measurement grid, Double-sided, A3 size
+
+Title: "Mini Hot Glue Gun"
+Description: Small rechargeable glue gun designed for quick craft projects and household repairs.
+Price: $24.99
+Category: Craft Supplies
+Features: Rechargeable, Fast heating, Compact body, Glue sticks included
+
+Title: "Kids Building Blocks Set"
+Description: Colorful construction blocks designed to encourage creativity and spatial reasoning in children.
+Price: $26.99
+Category: Toys
+Features: 500 pieces, Compatible blocks, Storage box, Ages 6+
+
+Title: "Remote Control Car"
+Description: Battery-powered remote control car designed for indoor and outdoor recreational use.
+Price: $31.99
+Category: Toys
+Features: Rechargeable battery, LED headlights, Remote controller, Four-wheel drive
+
+Title: "Wooden Puzzle Set"
+Description: Collection of wooden puzzles designed to develop problem-solving and logical thinking skills.
+Price: $18.99
+Category: Toys
+Features: Durable wood, Multiple puzzles, Educational, Ages 5+
+
+Title: "Science Experiment Kit"
+Description: Educational science kit containing experiments for learning basic chemistry, physics, and biology concepts.
+Price: $34.99
+Category: Educational Toys
+Features: Twenty experiments, Instruction manual, Safety equipment, Educational activities
+
+Title: "Kids Drawing Tablet"
+Description: Reusable LCD writing tablet designed for drawing, handwriting practice, and creative activities.
+Price: $19.99
+Category: Kids Electronics
+Features: LCD screen, One-touch erase, Stylus included, Lightweight
+
+Title: "Children's Building Robot Kit"
+Description: Educational robotics kit introducing children to mechanical construction and simple programming.
+Price: $49.99
+Category: Educational Toys
+Features: Modular parts, Motorized components, Programming guide, Rechargeable battery
+
+Title: "Puzzle Board 1000 Pieces"
+Description: Large jigsaw puzzle featuring a detailed landscape illustration for adults and older children.
+Price: $21.99
+Category: Games & Puzzles
+Features: 1000 pieces, Matte finish, Poster included, Puzzle storage box
+
+Title: "Strategy Board Game"
+Description: Competitive tabletop strategy game involving resource management, planning, and tactical decisions.
+Price: $39.99
+Category: Games & Puzzles
+Features: Two-to-four players, Strategy gameplay, Game board, Playing cards
+
+Title: "Playing Card Set"
+Description: Premium playing card collection suitable for poker, card games, magic tricks, and casual entertainment.
+Price: $9.99
+Category: Games & Puzzles
+Features: Two decks, Plastic-coated cards, Storage box, Standard size
+
+Title: "Travel Chess Set"
+Description: Magnetic folding chess board designed for travel and compact storage.
+Price: $17.99
+Category: Games & Puzzles
+Features: Magnetic pieces, Folding board, Compact design, Storage compartment
+
+Title: "Dog Harness"
+Description: Adjustable harness designed to provide comfortable control during daily dog walks.
+Price: $22.99
+Category: Pet Supplies
+Features: Adjustable straps, Reflective stitching, Breathable mesh, Secure buckle
+
+Title: "Automatic Pet Feeder"
+Description: Programmable feeder that automatically dispenses measured portions of dry pet food.
+Price: $69.99
+Category: Pet Supplies
+Features: Programmable schedule, Portion control, Large food container, Battery backup
+
+Title: "Pet Water Fountain"
+Description: Automatic water fountain providing filtered running water for cats and small dogs.
+Price: $39.99
+Category: Pet Supplies
+Features: Carbon filter, Quiet pump, Large reservoir, Low-water indicator
+
+Title: "Orthopedic Dog Bed"
+Description: Supportive pet bed with thick foam designed for comfortable rest and joint support.
+Price: $49.99
+Category: Pet Supplies
+Features: Memory foam, Removable cover, Non-slip base, Machine washable
+
+Title: "Cat Scratching Post"
+Description: Durable scratching tower designed to provide cats with a dedicated scratching and climbing area.
+Price: $34.99
+Category: Pet Supplies
+Features: Sisal rope, Plush platform, Stable base, Hanging toy
+
+Title: "Interactive Cat Toy"
+Description: Motion-activated electronic toy designed to keep indoor cats active and entertained.
+Price: $21.99
+Category: Pet Supplies
+Features: Motion sensor, Automatic movement, Rechargeable battery, Multiple modes
+
+Title: "Pet Grooming Kit"
+Description: Complete grooming set for brushing, deshedding, trimming, and cleaning pets.
+Price: $29.99
+Category: Pet Supplies
+Features: Deshedding brush, Nail clipper, Comb, Storage pouch
+
+Title: "Aquarium Water Filter"
+Description: Quiet aquarium filter designed to keep freshwater tanks clean and improve water circulation.
+Price: $27.99
+Category: Pet Supplies
+Features: Multi-stage filtration, Quiet pump, Adjustable flow, Easy cleaning
+
+Title: "Plant Watering Can"
+Description: Compact watering can with a narrow spout for accurately watering indoor and balcony plants.
+Price: $14.99
+Category: Gardening
+Features: Long spout, Lightweight body, Ergonomic handle, 2-liter capacity
+
+Title: "Gardening Tool Set"
+Description: Hand gardening kit for planting, transplanting, pruning, and maintaining household plants.
+Price: $24.99
+Category: Gardening
+Features: Trowel, Pruner, Cultivator, Gardening gloves
+
+Title: "LED Grow Light"
+Description: Full-spectrum LED grow light designed to support indoor plants during limited sunlight conditions.
+Price: $32.99
+Category: Gardening
+Features: Full-spectrum LEDs, Adjustable brightness, Timer, Flexible neck
+
+Title: "Plant Moisture Meter"
+Description: Analog soil moisture meter for checking moisture levels around indoor and outdoor plants.
+Price: $11.99
+Category: Gardening
+Features: No batteries required, Soil probe, Moisture scale, Easy reading
+
+Title: "Raised Garden Bed"
+Description: Outdoor raised planter designed for vegetables, herbs, flowers, and small plants.
+Price: $69.99
+Category: Gardening
+Features: Weather-resistant material, Drainage holes, Easy assembly, Large planting area
+
+Title: "Garden Hose 50 Feet"
+Description: Flexible garden hose designed for watering plants, cleaning patios, and outdoor maintenance.
+Price: $29.99
+Category: Gardening
+Features: Kink resistant, Expandable design, Brass connectors, 50-foot length
+
+Title: "Pruning Shears"
+Description: Sharp pruning scissors designed for trimming branches, flowers, shrubs, and small plants.
+Price: $16.99
+Category: Gardening
+Features: Stainless steel blades, Safety lock, Ergonomic grip, Rust resistant
+
+Title: "Compost Bin"
+Description: Compact kitchen compost container designed to collect food scraps before outdoor composting.
+Price: $23.99
+Category: Gardening
+Features: Odor control filter, Carbon steel body, Removable liner, Countertop design
+
+Title: "Car Phone Mount"
+Description: Adjustable smartphone mount designed for secure hands-free navigation inside vehicles.
+Price: $19.99
+Category: Automotive
+Features: Dashboard mounting, 360-degree rotation, Adjustable grip, One-hand operation
+
+Title: "Portable Tire Inflator"
+Description: Cordless electric inflator designed for cars, bicycles, motorcycles, and sports equipment.
+Price: $49.99
+Category: Automotive
+Features: Digital pressure display, Auto shut-off, Rechargeable battery, LED light
+
+Title: "Car Vacuum Cleaner"
+Description: Compact cordless vacuum designed for cleaning vehicle seats, carpets, dashboards, and floor mats.
+Price: $44.99
+Category: Automotive
+Features: Cordless operation, HEPA filter, Multiple attachments, USB-C charging
+
+Title: "Car Emergency Kit"
+Description: Roadside emergency kit containing essential tools and safety supplies for unexpected vehicle problems.
+Price: $59.99
+Category: Automotive
+Features: Jumper cables, Warning triangle, Flashlight, First aid supplies
+
+Title: "Car Seat Organizer"
+Description: Backseat organizer designed to store toys, bottles, electronics, documents, and travel accessories.
+Price: $24.99
+Category: Automotive
+Features: Multiple pockets, Tablet holder, Adjustable straps, Water-resistant fabric
+
+Title: "Windshield Sun Shade"
+Description: Foldable reflective sunshade designed to reduce heat buildup inside parked vehicles.
+Price: $17.99
+Category: Automotive
+Features: Reflective surface, Foldable, Universal size, Storage pouch
+
+Title: "Car Cleaning Brush Set"
+Description: Detailing brush collection designed for dashboards, air vents, wheels, and interior surfaces.
+Price: $19.99
+Category: Automotive
+Features: Five brushes, Soft bristles, Interior detailing, Storage bag
+
+Title: "Leather Car Seat Cushion"
+Description: Cushioned seat cover designed to improve comfort during long driving sessions.
+Price: $39.99
+Category: Automotive
+Features: Memory foam, Breathable surface, Non-slip backing, Universal fit
+
+Title: "Dash Camera 1080p"
+Description: Full HD vehicle camera designed to record road footage and driving incidents.
+Price: $69.99
+Category: Automotive
+Features: 1080p recording, Night vision, Loop recording, Wide-angle lens
+
+Title: "Wireless Car Charger"
+Description: Dashboard charging mount combining smartphone holding with wireless charging.
+Price: $32.99
+Category: Automotive
+Features: 15W charging, Automatic clamp, 360-degree rotation, USB-C input
+
+Title: "Bicycle Repair Kit"
+Description: Compact roadside repair kit containing tools for common bicycle maintenance tasks.
+Price: $27.99
+Category: Cycling
+Features: Tire levers, Mini pump, Allen keys, Patch kit
+
+Title: "Mountain Bike Helmet"
+Description: Protective cycling helmet designed for mountain biking, trail riding, and recreational cycling.
+Price: $44.99
+Category: Cycling
+Features: Adjustable fit, Ventilation holes, Removable visor, Impact protection
+
+Title: "Bicycle LED Light Set"
+Description: Front and rear rechargeable lights designed to improve visibility during nighttime cycling.
+Price: $21.99
+Category: Cycling
+Features: Front light, Rear light, USB charging, Multiple modes
+
+Title: "Bike Phone Mount"
+Description: Handlebar-mounted smartphone holder designed for cycling navigation and fitness tracking.
+Price: $18.99
+Category: Cycling
+Features: Adjustable clamp, 360-degree rotation, Shock resistant, Universal fit
+
+Title: "Cycling Gloves"
+Description: Padded cycling gloves designed to improve grip and reduce hand fatigue during rides.
+Price: $19.99
+Category: Cycling
+Features: Gel padding, Breathable fabric, Touchscreen fingertips, Adjustable wrist
+
+Title: "Yoga Block Set"
+Description: Pair of lightweight foam blocks designed to support stretching, balance, and yoga poses.
+Price: $15.99
+Category: Fitness
+Features: High-density foam, Non-slip surface, Lightweight, Two-piece set
+
+Title: "Pilates Ring"
+Description: Resistance ring designed for Pilates, core exercises, and lower-body strengthening.
+Price: $17.99
+Category: Fitness
+Features: Flexible resistance, Foam handles, Lightweight, Compact size
+
+Title: "Ab Roller Wheel"
+Description: Core training wheel designed for abdominal workouts and upper-body strength exercises.
+Price: $21.99
+Category: Fitness
+Features: Dual wheels, Non-slip handles, Knee pad, Portable design
+
+Title: "Pull-Up Bar"
+Description: Door-frame pull-up bar designed for upper-body strength training without permanent installation.
+Price: $34.99
+Category: Fitness
+Features: Adjustable width, Foam grips, Multi-position handles, No-drill installation
+
+Title: "Adjustable Weight Bench"
+Description: Foldable workout bench designed for dumbbell exercises, presses, and strength training.
+Price: $109.99
+Category: Fitness
+Features: Adjustable backrest, Foldable frame, Padded seat, Steel construction
+
+Title: "Sports Gym Bag"
+Description: Spacious duffel bag designed to carry workout clothes, shoes, towels, and fitness accessories.
+Price: $32.99
+Category: Sports Accessories
+Features: Shoe compartment, Wet pocket, Adjustable strap, Multiple compartments
+
+Title: "Compression Socks"
+Description: Athletic compression socks designed to provide support during running, travel, and exercise.
+Price: $14.99
+Category: Sportswear
+Features: Compression fit, Moisture wicking, Breathable fabric, Arch support
+
+Title: "Sports Water Bottle 1L"
+Description: Large reusable bottle designed for workouts, sports, hiking, and daily hydration.
+Price: $18.99
+Category: Sports Accessories
+Features: One-liter capacity, Leak-proof lid, Measurement markings, Carry loop
+
+Title: "Tennis Racket"
+Description: Lightweight tennis racket designed for recreational and intermediate players.
+Price: $69.99
+Category: Sports Equipment
+Features: Graphite frame, Shock absorption, Comfortable grip, Protective cover
+
+Title: "Badminton Racket Set"
+Description: Pair of lightweight badminton rackets with shuttlecocks for recreational play.
+Price: $39.99
+Category: Sports Equipment
+Features: Two rackets, Graphite frame, Four shuttlecocks, Carry bag
+
+Title: "Football Training Cones"
+Description: Set of colorful training cones for football, soccer, agility drills, and sports practice.
+Price: $15.99
+Category: Sports Equipment
+Features: Twenty cones, Flexible plastic, Bright colors, Carrying bag
+
+Title: "Basketball Size 7"
+Description: Indoor and outdoor basketball with textured surface designed for competitive and recreational play.
+Price: $29.99
+Category: Sports Equipment
+Features: Size 7, Rubber cover, Deep channels, All-surface design
+
+Title: "Table Tennis Paddle Set"
+Description: Table tennis paddle set designed for casual games, training, and recreational play.
+Price: $25.99
+Category: Sports Equipment
+Features: Two paddles, Four balls, Rubber surface, Carry case
+
+Title: "Camping Hammock"
+Description: Lightweight portable hammock designed for relaxing during camping, hiking, and outdoor trips.
+Price: $29.99
+Category: Outdoor Gear
+Features: Parachute nylon, Tree straps, Compact storage bag, 300kg capacity
+
+Title: "Waterproof Picnic Blanket"
+Description: Large foldable blanket designed for picnics, camping, beaches, and outdoor gatherings.
+Price: $26.99
+Category: Outdoor Gear
+Features: Waterproof backing, Foldable, Carry handle, Sand resistant
+
+Title: "Portable Beach Umbrella"
+Description: Lightweight umbrella providing shade during beach trips, picnics, and outdoor activities.
+Price: $49.99
+Category: Outdoor Gear
+Features: UV protection, Adjustable pole, Tilt mechanism, Carry bag
+
+Title: "Insulated Cooler Bag"
+Description: Soft-sided cooler designed to keep food and beverages cold during travel and outdoor activities.
+Price: $34.99
+Category: Outdoor Gear
+Features: Insulated lining, Shoulder strap, Leak-resistant interior, 20-can capacity
+
+Title: "Hiking Water Bladder"
+Description: Flexible hydration reservoir designed to fit inside compatible hiking and cycling backpacks.
+Price: $19.99
+Category: Outdoor Gear
+Features: 2-liter capacity, Leak-proof valve, Wide opening, BPA-free
+
+Title: "Camping Cookware Set"
+Description: Compact cookware collection designed for preparing meals during camping and backpacking trips.
+Price: $44.99
+Category: Camping
+Features: Pots and pans, Folding handles, Lightweight aluminum, Storage bag
+
+Title: "Outdoor Fire Starter Kit"
+Description: Compact fire-starting kit designed for camping, hiking, and emergency outdoor situations.
+Price: $17.99
+Category: Camping
+Features: Ferro rod, Waterproof container, Cotton tinder, Scraper
+
+Title: "Camping Table"
+Description: Foldable outdoor table designed for camping, picnics, barbecues, and outdoor events.
+Price: $54.99
+Category: Camping
+Features: Aluminum frame, Foldable legs, Carrying handle, Weather resistant
+
+Title: "Portable Solar Lantern"
+Description: Rechargeable solar lantern designed for camping, emergency lighting, and outdoor activities.
+Price: $29.99
+Category: Camping
+Features: Solar charging, USB charging, Multiple brightness modes, Hanging handle
+
+Title: "USB Rechargeable Fan"
+Description: Portable fan designed for personal cooling at desks, travel locations, and outdoor spaces.
+Price: $22.99
+Category: Home Appliances
+Features: Rechargeable battery, Three speeds, Quiet motor, Adjustable angle
+
+Title: "Compact Dehumidifier"
+Description: Small electric dehumidifier designed for bedrooms, bathrooms, closets, and offices.
+Price: $59.99
+Category: Home Appliances
+Features: Water tank, Auto shut-off, Quiet operation, LED indicator
+
+Title: "Tower Air Purifier"
+Description: Tall-room air purifier designed to filter dust, pollen, smoke, and household odors.
+Price: $119.99
+Category: Home Appliances
+Features: HEPA filter, Carbon filter, Sleep mode, Air quality sensor
+
+Title: "Humidifier 4 Liter"
+Description: Large-capacity cool mist humidifier designed for bedrooms, offices, and living rooms.
+Price: $49.99
+Category: Home Appliances
+Features: Four-liter tank, Adjustable mist, Auto shut-off, Quiet operation
+
+Title: "Portable Blender"
+Description: Rechargeable personal blender designed for smoothies, protein shakes, and fruit drinks.
+Price: $34.99
+Category: Kitchen Appliances
+Features: USB-C charging, Stainless blades, Rechargeable battery, Travel lid
+
+Title: "Electric Kettle 1.7L"
+Description: Fast-boiling electric kettle designed for tea, coffee, instant meals, and hot beverages.
+Price: $32.99
+Category: Kitchen Appliances
+Features: 1.7-liter capacity, Auto shut-off, Boil-dry protection, LED indicator
+
+Title: "Toaster 4-Slice"
+Description: Four-slot toaster designed for preparing toast, bagels, and other breakfast foods.
+Price: $39.99
+Category: Kitchen Appliances
+Features: Six browning levels, Bagel mode, Cancel button, Crumb tray
+
+Title: "Hand Mixer"
+Description: Electric hand mixer designed for whipping cream, mixing batter, and preparing dough.
+Price: $27.99
+Category: Kitchen Appliances
+Features: Five speeds, Turbo mode, Stainless beaters, Eject button
+
+Title: "Stand Mixer"
+Description: Countertop mixer designed for baking bread, cakes, cookies, and other recipes.
+Price: $149.99
+Category: Kitchen Appliances
+Features: Five-liter bowl, Multiple attachments, Variable speed, Splash guard
+
+Title: "Electric Pressure Cooker"
+Description: Multi-function pressure cooker designed for rice, soups, stews, beans, and slow cooking.
+Price: $89.99
+Category: Kitchen Appliances
+Features: Multiple presets, Pressure cooking, Slow cook mode, Keep warm
+
+Title: "Food Processor 10-Cup"
+Description: Large-capacity food processor designed for slicing, shredding, chopping, and mixing.
+Price: $79.99
+Category: Kitchen Appliances
+Features: Ten-cup bowl, Multiple blades, Pulse mode, Dishwasher-safe parts
+
+Title: "Countertop Ice Maker"
+Description: Compact ice machine producing small batches of ice for home, office, and gatherings.
+Price: $129.99
+Category: Kitchen Appliances
+Features: Fast ice production, Water reservoir, Digital controls, Compact body
+
+Title: "Electric Can Opener"
+Description: Automatic countertop can opener designed to open cans with minimal manual effort.
+Price: $24.99
+Category: Kitchen Appliances
+Features: One-touch operation, Automatic shut-off, Stainless blade, Easy cleaning
+
+Title: "Smart LED Ceiling Light"
+Description: Wi-Fi enabled ceiling light offering adjustable brightness and color temperature.
+Price: $59.99
+Category: Smart Home
+Features: Wi-Fi control, Voice assistant support, Dimmable, Adjustable color temperature
+
+Title: "Smart Motion Sensor"
+Description: Wireless motion detector designed to trigger smart home automations and security notifications.
+Price: $21.99
+Category: Smart Home
+Features: PIR sensor, Mobile alerts, Battery powered, Adjustable sensitivity
+
+Title: "Smart Doorbell Camera"
+Description: Video doorbell providing remote visitor monitoring and motion notifications through a mobile app.
+Price: $79.99
+Category: Smart Home
+Features: HD video, Motion detection, Two-way audio, Night vision
+
+Title: "Smart Light Switch"
+Description: Wi-Fi enabled wall switch allowing lights to be controlled from smartphones and voice assistants.
+Price: $27.99
+Category: Smart Home
+Features: Wi-Fi connectivity, App control, Voice control, Scheduling
+
+Title: "Smart Thermostat"
+Description: Programmable thermostat designed to control home temperature and optimize heating and cooling schedules.
+Price: $99.99
+Category: Smart Home
+Features: Wi-Fi connectivity, Mobile app, Scheduling, Temperature sensor
+
+Title: "Smart Smoke Detector"
+Description: Connected smoke detector that provides audible alarms and smartphone notifications.
+Price: $54.99
+Category: Smart Home
+Features: Smoke detection, Mobile alerts, Test button, Battery powered
+
+Title: "Smart Garage Sensor"
+Description: Wireless sensor that monitors whether a garage door is open or closed.
+Price: $29.99
+Category: Smart Home
+Features: Open-close alerts, Mobile app, Magnetic sensor, Battery powered
+
+Title: "Smart Plant Sensor"
+Description: Wireless plant monitor measuring soil conditions to help users maintain healthy indoor plants.
+Price: $25.99
+Category: Smart Home
+Features: Soil moisture, Light measurement, Temperature monitoring, Mobile app
+
+Title: "Wireless Earbud Case"
+Description: Protective silicone case designed to protect compact wireless earbuds during daily use.
+Price: $12.99
+Category: Mobile Accessories
+Features: Silicone material, Scratch protection, Keychain loop, Shock absorption
+
+Title: "Bluetooth Earbud Cleaning Kit"
+Description: Precision cleaning kit designed to remove dust and debris from earbuds, charging cases, and small electronics.
+Price: $9.99
+Category: Electronics Accessories
+Features: Cleaning brush, Metal tip, Microfiber cloth, Portable case
+
+Title: "Portable Bluetooth Receiver"
+Description: Bluetooth receiver that adds wireless audio streaming to speakers, cars, and wired headphones.
+Price: $18.99
+Category: Audio Equipment
+Features: Bluetooth 5.0, 10-hour battery, 3.5mm output, Compact design
+
+Title: "Bluetooth Transmitter"
+Description: Wireless transmitter for sending audio from TVs and other devices to Bluetooth headphones or speakers.
+Price: $24.99
+Category: Audio Equipment
+Features: Bluetooth 5.2, Low latency, Optical input, Dual pairing
+
+Title: "Mini Stereo Amplifier"
+Description: Compact amplifier designed for powering passive speakers in home audio and desktop setups.
+Price: $49.99
+Category: Audio Equipment
+Features: Bluetooth input, RCA input, Bass control, Treble control
+
+Title: "Bookshelf Speaker Pair"
+Description: Compact passive speakers designed for desktop audio, home theater, and music listening.
+Price: $89.99
+Category: Audio Equipment
+Features: Two-speaker set, Passive design, Wood cabinet, Wide frequency response
+
+Title: "Portable Record Player"
+Description: Compact turntable designed for playing vinyl records at home or while traveling.
+Price: $79.99
+Category: Audio Equipment
+Features: Built-in speakers, Three playback speeds, Bluetooth output, Carry handle
+
+Title: "USB Sound Card"
+Description: External audio adapter designed to add headphone and microphone connections to computers.
+Price: $14.99
+Category: Computer Accessories
+Features: USB connection, Headphone output, Microphone input, Plug-and-play
+
+Title: "Webcam Privacy Cover Set"
+Description: Small sliding covers designed to physically block laptop and desktop webcams when not in use.
+Price: $6.99
+Category: Computer Accessories
+Features: Adhesive backing, Sliding cover, Ultra-thin design, Six-pack
+
+Title: "Laptop Cleaning Kit"
+Description: Cleaning kit designed for removing dust, fingerprints, and debris from laptops and computer screens.
+Price: $13.99
+Category: Computer Accessories
+Features: Microfiber cloth, Cleaning brush, Spray bottle, Keyboard tool
+
+Title: "Monitor Light Bar"
+Description: Screen-mounted LED light designed to illuminate desks while reducing glare on monitors.
+Price: $39.99
+Category: Office Accessories
+Features: Adjustable brightness, Adjustable color temperature, USB powered, Touch controls
+
+Title: "Ergonomic Footrest"
+Description: Adjustable under-desk footrest designed to improve sitting posture during long work sessions.
+Price: $26.99
+Category: Office Furniture
+Features: Adjustable angle, Textured surface, Foam padding, Non-slip base
+
+Title: "Standing Desk Converter"
+Description: Height-adjustable desktop platform that converts a traditional desk into a standing workstation.
+Price: $119.99
+Category: Office Furniture
+Features: Adjustable height, Keyboard tray, Large surface, Stable frame
+
+Title: "Office Desk Mat"
+Description: Protective desk mat designed for keyboards, mice, writing, and everyday office work.
+Price: $19.99
+Category: Office Accessories
+Features: Water resistant, Non-slip backing, Smooth surface, Easy cleaning
+
+Title: "Ergonomic Keyboard Wrist Rest"
+Description: Soft wrist support designed to improve comfort during extended keyboard use.
+Price: $14.99
+Category: Office Accessories
+Features: Memory foam, Non-slip base, Breathable cover, Full-size design
+
+Title: "Monitor Arm"
+Description: Adjustable monitor arm designed to free desk space and position screens ergonomically.
+Price: $79.99
+Category: Office Furniture
+Features: Height adjustment, Tilt adjustment, Cable management, VESA compatible
+
+Title: "USB-C Monitor"
+Description: 27-inch monitor with USB-C connectivity designed for laptops, productivity, and creative work.
+Price: $249.99
+Category: Computer Monitors
+Features: USB-C input, 27-inch display, IPS panel, 100Hz refresh rate
+
+Title: "Ultrawide Monitor"
+Description: Wide-format monitor designed for multitasking, programming, video editing, and productivity.
+Price: $299.99
+Category: Computer Monitors
+Features: 34-inch display, Ultrawide ratio, 144Hz refresh rate, Split-screen support
+
+Title: "Portable Monitor 15.6 Inch"
+Description: Slim external monitor designed for laptops, gaming consoles, remote work, and travel.
+Price: $179.99
+Category: Computer Monitors
+Features: Full HD, USB-C, HDMI input, Built-in speakers
+
+Title: "4K Monitor 32 Inch"
+Description: Large high-resolution monitor designed for design work, programming, media editing, and entertainment.
+Price: $329.99
+Category: Computer Monitors
+Features: 4K resolution, IPS panel, HDR support, HDMI input
+
+Title: "Mini Projector"
+Description: Compact projector designed for movies, presentations, gaming, and portable entertainment.
+Price: $119.99
+Category: Home Entertainment
+Features: 1080p support, HDMI input, Built-in speaker, Wireless mirroring
+
+Title: "Streaming Media Player"
+Description: Compact streaming device for accessing online video and music services on compatible televisions.
+Price: $39.99
+Category: Home Entertainment
+Features: 4K support, Wi-Fi, Voice remote, HDMI output
+
+Title: "Soundbar 2.1 Channel"
+Description: Compact soundbar system designed to improve television audio with a dedicated subwoofer.
+Price: $129.99
+Category: Home Entertainment
+Features: Wireless subwoofer, Bluetooth, HDMI ARC, Multiple sound modes
+
+Title: "Bluetooth Party Speaker"
+Description: Large portable speaker designed for parties, outdoor gatherings, and karaoke sessions.
+Price: $159.99
+Category: Home Entertainment
+Features: Wireless microphone, RGB lighting, Bluetooth, Rechargeable battery
+
+Title: "Universal Remote Control"
+Description: Programmable remote control designed to operate televisions, streaming devices, and audio equipment.
+Price: $19.99
+Category: Home Entertainment
+Features: Programmable buttons, Multiple device support, Learning function, Backlit keys
+
+Title: "Digital Photo Frame"
+Description: Wi-Fi photo frame that displays personal photos and automatically receives new images.
+Price: $69.99
+Category: Home Decor
+Features: Wi-Fi connectivity, Touchscreen, Cloud photo sharing, Automatic rotation
+
+Title: "Portable Label Maker"
+Description: Bluetooth label printer designed for organizing cables, storage boxes, files, and household items.
+Price: $29.99
+Category: Office Supplies
+Features: Bluetooth, Thermal printing, Mobile app, Rechargeable battery
+
+Title: "Receipt Printer"
+Description: Compact thermal printer designed for small businesses, counters, events, and point-of-sale systems.
+Price: $69.99
+Category: Office Equipment
+Features: Thermal printing, USB connection, High-speed output, Paper cutter
+
+Title: "Document Shredder"
+Description: Compact paper shredder designed for securely destroying personal and office documents.
+Price: $59.99
+Category: Office Equipment
+Features: Cross-cut shredding, Eight-sheet capacity, Overheat protection, Waste basket
+
+Title: "Laminating Machine"
+Description: Compact laminator for protecting documents, certificates, cards, signs, and educational materials.
+Price: $44.99
+Category: Office Equipment
+Features: Two roller system, Fast warm-up, Multiple thickness settings, Jam release
+
+Title: "Binding Machine"
+Description: Manual document binding machine suitable for reports, projects, presentations, and office documents.
+Price: $64.99
+Category: Office Equipment
+Features: Comb binding, Adjustable margins, Punching lever, Paper guide
+
+Title: "Portable White Noise Machine"
+Description: Compact sound machine designed to play relaxing background sounds for sleep and concentration.
+Price: $29.99
+Category: Home & Living
+Features: Multiple sounds, Timer, Rechargeable battery, Compact design
+
+Title: "Digital Desk Clock"
+Description: Modern digital clock with large numerals designed for bedrooms, desks, and offices.
+Price: $18.99
+Category: Home & Living
+Features: Large display, Alarm, Temperature sensor, USB powered
+
+Title: "Bedside Organizer"
+Description: Hanging organizer designed to store phones, books, remotes, glasses, and small accessories beside a bed.
+Price: $15.99
+Category: Home Organization
+Features: Multiple pockets, Fabric construction, Bedside hanging, Lightweight
+
+Title: "Closet Hanger Set"
+Description: Durable clothing hangers designed to organize shirts, jackets, dresses, and trousers.
+Price: $19.99
+Category: Home Organization
+Features: Non-slip coating, Slim profile, Rotating hooks, Twenty-piece set
+
+Title: "Shoe Storage Rack"
+Description: Multi-level rack designed to organize shoes in entryways, bedrooms, and closets.
+Price: $32.99
+Category: Home Organization
+Features: Six levels, Metal frame, Easy assembly, Compact footprint
+
+Title: "Drawer Storage Boxes"
+Description: Fabric storage boxes designed for organizing clothes, accessories, documents, and household items.
+Price: $23.99
+Category: Home Storage
+Features: Foldable, Label window, Carry handles, Reinforced sides
+
+Title: "Vacuum Storage Bags"
+Description: Space-saving bags designed to compress clothing, bedding, blankets, and seasonal items.
+Price: $21.99
+Category: Home Storage
+Features: Vacuum valve, Airtight seal, Reusable, Multiple sizes
+
+Title: "Kitchen Trash Can"
+Description: Compact stainless steel trash bin designed for kitchens, offices, bathrooms, and small spaces.
+Price: $34.99
+Category: Home & Kitchen
+Features: Step pedal, Removable liner, Fingerprint-resistant finish, 12-liter capacity
+
+Title: "Automatic Soap Dispenser"
+Description: Touch-free dispenser designed for bathrooms, kitchens, and office washrooms.
+Price: $27.99
+Category: Home Appliances
+Features: Motion sensor, Adjustable volume, Rechargeable battery, Transparent tank
+
+Title: "Electric Hand Warmer"
+Description: Rechargeable hand warmer designed for outdoor activities and cold weather conditions.
+Price: $29.99
+Category: Outdoor Gear
+Features: Adjustable heat, Rechargeable battery, Dual-sided heating, Compact design
+
+Title: "Portable Neck Fan"
+Description: Wearable rechargeable fan designed to provide hands-free cooling during outdoor activities.
+Price: $25.99
+Category: Personal Care
+Features: Three speeds, USB-C charging, Flexible arms, Quiet motor
+
+Title: "
