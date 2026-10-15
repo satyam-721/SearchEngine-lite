@@ -41,6 +41,33 @@ public class CrawlerService {
     @Autowired
     IndexTF indexTF;
 
+    public void startCrawling(int round){
+        Set<String> visited = new HashSet<>();
+        Queue<String> urlQueue = new LinkedList<>();
+        Set<String> discovered = new HashSet<>();
+
+
+
+        //fetching pending pages first
+        List<Page> pageList = pageRepo.findPageByStatus(CrawlStatus.PENDING,PageRequest.of(round,100));
+        if(pageList.isEmpty()){
+            urlQueue.add(SEED_URL);
+            discovered.add(SEED_URL);
+        }else{
+            pageList.forEach(p -> {
+                urlQueue.add(p.getUrl());
+                discovered.add(p.getUrl());
+            });
+        }
+
+        int pageCrawled = 0;
+        while(!urlQueue.isEmpty() && pageCrawled < MAX_PAGES) {
+             crawl(visited, urlQueue,discovered);
+//            System.out.println("END: "+LocalDateTime.now());
+             pageCrawled ++;
+        }
+        System.out.println("CRAWLING REACHED MAX_PAGES !");
+    }
 
     //move to next url  from queue
     private void crawl( Set<String> visited, Queue<String> urlQueue,Set<String> discovered) {
